@@ -1,0 +1,1351 @@
+{
+  "PEOPLE": [
+      {
+      "id": "PEOPLE_001",
+      "control_description": "Household Awareness",
+      "question": "Are all household members (including children of awareness age) aware of how to lock/unlock all entry points?",
+      "yes_attribute": "All household members demonstrate a clear understanding of how to properly secure and operate all entry point locks.",
+      "no_attribute": "Certain household members are unable to independently operate entry point locks, creating potential security gaps or egress issues.",
+      "tier": "tier1",
+      "remediation": [
+          "Define expectations for 'Household Awareness' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_002",
+      "control_description": "Visitor Protocol",
+      "question": "Do you have a standard knock at the door policy (e.g., looking through a peephole/camera before opening)?",
+      "yes_attribute": "The household follows a strict 'verify before opening' protocol using cameras or peepholes for all visitors.",
+      "no_attribute": "There is no standardized visitor verification protocol, leading to the risk of opening doors to unvetted individuals.",
+      "tier": "tier1",
+      "remediation": [
+          "Define expectations for 'Visitor Protocol' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_003",
+      "control_description": "Emergency Contact",
+      "question": "Is there a list of emergency contacts (Police, Fire, Trusted Neighbor) easily accessible to everyone in the home?",
+      "yes_attribute": "A comprehensive list of emergency contacts is prominently displayed and accessible to everyone in the residence.",
+      "no_attribute": "Emergency contact information is not centrally located or easily accessible to all household members.",
+      "tier": "tier1",
+      "remediation": [
+          "Define expectations for 'Emergency Contact' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_004",
+      "control_description": "Key Control",
+      "question": "Do you have a record of every person who has a physical key or digital code to the house?",
+      "yes_attribute": "A formal inventory of all physical keys and digital access codes is maintained and current.",
+      "no_attribute": "There is no centralized record of who possesses physical keys or active digital access codes for the residence.",
+      "tier": "tier1",
+      "remediation": [
+          "Define expectations for 'Key Control' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_005",
+      "control_description": "The Hidden Key Risk",
+      "question": "Do you currently hide a physical key in a predictable location (under a mat, in a fake rock)?",
+      "yes_attribute": "The household avoids high-risk practices like hiding physical keys in predictable outdoor locations.",
+      "no_attribute": "Physical keys are hidden in predictable exterior locations, presenting a significant unauthorized entry risk.",
+      "tier": "tier1",
+      "remediation": [
+          "Define expectations for 'The Hidden Key Risk' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_006",
+      "control_description": "Digital/Physical Crossover",
+      "question": "Does everyone understand the risk of leaving a garage door opener in an unlocked car in the driveway?",
+      "yes_attribute": "Household members are aware of the security risk posed by leaving garage openers in unsecure vehicles.",
+      "no_attribute": "There is a lack of awareness regarding the vulnerability of leaving garage door openers in unlocked vehicles.",
+      "tier": "tier1",
+      "remediation": [
+          "Define expectations for 'Digital/Physical Crossover' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_007",
+      "control_description": "Social Media Hygiene",
+      "question": "Is there a shared understanding not to post real-time vacation photos or \"I’m home alone\" status updates?",
+      "yes_attribute": "A shared social media policy exists to prevent the posting of real-time location data that indicates an empty residence.",
+      "no_attribute": "Household members lack a unified understanding of the risks associated with posting real-time travel or occupancy status.",
+      "tier": "tier2",
+      "remediation": [
+          "Define expectations for 'Social Media Hygiene' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_008",
+      "control_description": "Service Provider Policy",
+      "question": "Do you verify the ID of service workers (plumbers, delivery, etc.) before allowing entry?",
+      "yes_attribute": "Identity verification is mandatory for all service providers and vendors before they are granted entry to the property.",
+      "no_attribute": "Service workers are frequently admitted to the residence without formal identity or appointment verification.",
+      "tier": "tier2",
+      "remediation": [
+          "Define expectations for 'Service Provider Policy' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_009",
+      "control_description": "Neighbor Network",
+      "question": "Do you have at least one neighbor who has been briefed on what suspicious activity looks like for your specific property?",
+      "yes_attribute": "A trusted neighbor is briefed on normal versus suspicious activity patterns for the property.",
+      "no_attribute": "The property lacks a localized community watch element, as no neighbors are aware of baseline activity patterns.",
+      "tier": "tier2",
+      "remediation": [
+          "Define expectations for 'Neighbor Network' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_010",
+      "control_description": "Situational Awareness",
+      "question": "Do household members check the perimeter/surroundings visually before exiting or entering the garage/front door?",
+      "yes_attribute": "Household members consistently practice visual perimeter checks before entering or exiting the residence.",
+      "no_attribute": "There is no habitual practice of scanning the surroundings before entering or exiting the garage or front door.",
+      "tier": "tier2",
+      "remediation": [
+          "Define expectations for 'Situational Awareness' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_011",
+      "control_description": "Domestic Staff Vetting",
+      "question": "If you employ regular cleaners/landscapers, have they undergone a background check or were they hired via a vetted agency?",
+      "yes_attribute": "All recurring domestic staff have been formally vetted via background checks or reputable agencies.",
+      "no_attribute": "Domestic staff are employed without formal background checks or third-party agency vetting.",
+      "tier": "tier2",
+      "remediation": [
+          "Define expectations for 'Domestic Staff Vetting' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_012",
+      "control_description": "The \"Vouching\" Rule",
+      "question": "Is there a rule for children/teens regarding 'vouching' for friends? (e.g., No guests allowed when parents are out unless pre-approved).",
+      "yes_attribute": "Strict guest policies are in place to prevent unauthorized visitors when primary residents are not present.",
+      "no_attribute": "There are no established rules regarding children or teens hosting guests without adult supervision or pre-approval.",
+      "tier": "tier2",
+      "remediation": [
+          "Define expectations for 'The \"Vouching\" Rule' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_013",
+      "control_description": "Drill Frequency",
+      "question": "Does the household perform an Emergency Exit or Safe Room drill at least twice a year?",
+      "yes_attribute": "The household semi-annually practices emergency response drills, ensuring everyone knows safe room and exit paths.",
+      "no_attribute": "Emergency drills are not performed regularly, increasing the risk of panic or confusion during a real emergency.",
+      "tier": "tier3",
+      "remediation": [
+          "Define expectations for 'Drill Frequency' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_014",
+      "control_description": "Credential Audit",
+      "question": "Do you change or rotate digital door codes/Wi-Fi passwords at least every 6 months?",
+      "yes_attribute": "Digital access credentials and Wi-Fi passwords are rotated on a semi-annual basis to mitigate long-term exposure.",
+      "no_attribute": "Access codes and network passwords remain static for long periods, increasing the risk of unauthorized use.",
+      "tier": "tier3",
+      "remediation": [
+          "Define expectations for 'Credential Audit' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_015",
+      "control_description": "Verification of Training",
+      "question": "Can a child or guest demonstrate the correct use of the alarm system (including the Duress/Panic code) without assistance?",
+      "yes_attribute": "Regular users of the residence can successfully demonstrate full operation of the security system and panic features.",
+      "no_attribute": "Certain household members or frequent guests cannot independently operate the alarm system or duress codes.",
+      "tier": "tier3",
+      "remediation": [
+          "Define expectations for 'Verification of Training' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_016",
+      "control_description": "Incident Post-Mortem",
+      "question": "After a close call (e.g., a package theft or a solicitor being overly aggressive), is there a family discussion to adjust People protocols?",
+      "yes_attribute": "Security 'close calls' are used as learning opportunities to formally review and update behavioral protocols.",
+      "no_attribute": "Minor security lapses or incidents are not reviewed as a group, missing critical opportunities for protocol improvement.",
+      "tier": "tier3",
+      "remediation": [
+          "Define expectations for 'Incident Post-Mortem' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_017",
+      "control_description": "Verification, metrics, and Red Teaming",
+      "question": "Do you periodically 'audit' your own home (e.g., checking if the kids actually locked the back door after playing) and use the results to retrain the household?",
+      "yes_attribute": "The household conducts internal security audits and uses the findings to reinforce proper security habits.",
+      "no_attribute": "Security habits are assumed to be followed but are not periodically verified through internal checks or retraining.",
+      "tier": "tier3",
+      "remediation": [
+          "Define expectations for 'Verification, metrics, and Red Teaming.' and assign who is responsible for enforcing it (family vs staff).",
+          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
+          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+      ]
+      },
+      {
+      "id": "PEOPLE_018",
+      "control_description": "Path Safety",
+      "question": "Are the paths between various property buildings well lit and actively monitored for both security and wildlife risks?",
+      "yes_attribute": "Path Safety is fully implemented; the paths are well lit and actively monitored for both security and wildlife risks.",
+      "no_attribute": "Path Safety is not currently addressed; the paths between locations are not well lit and actively monitored for both security and wildlife risks remains a vulnerability.",
+      "tier": "tier2",
+      "remediation": [
+        "Install motion-activated, high-lumen LED lighting along the entire path between structures.",
+        "Deploy AI-enabled cameras capable of distinguishing between human intruders and local wildlife (bears, mountain lions).",
+        "Establish a 'clear zone' of at least 10 feet on either side of the path to reduce hiding spots and wildlife ambush points."
+      ]
+    },
+    {
+      "id": "PEOPLE_019",
+      "control_description": "Guest/Staff Separation",
+      "question": "Do guests at various property locations have separate access to prevent unauthorized access to the main house\u2019s alarm and camera feeds?",
+      "yes_attribute": "Guest/Staff Separation is fully implemented; guests at other buildings have a separate security partition to prevent unauthorized access to the main house\u2019s alarm and camera feeds.",
+      "no_attribute": "Guest/Staff Separation is not currently addressed; guests at the other buildings have a separate security partition to prevent unauthorized access to the main house\u2019s alarm and camera feeds remains a vulnerability.",
+      "tier": "tier2",
+      "remediation": [
+        "Configure the security system with 'Partitioning' to isolate location access codes from Main House controls.",
+        "Ensure the guest Wi-Fi/Network is physically or logically separated (VLAN) from the security camera management VLAN.",
+        "Provide guests with a simplified interface or app access that only shows building-specific security data."
+      ]
+    },
+    {
+      "id": "PEOPLE_020",
+      "control_description": "Virtual Orientation",
+      "question": "Does the house manager perform a Virtual Walkthrough to orient security staff on the location of gates, forest blind sides, and utilities?",
+      "yes_attribute": "Virtual Orientation is fully implemented; the house manager performs a Virtual Walkthrough to orient security staff on the location of gates, forest blind sides, and utilities.",
+      "no_attribute": "Virtual Orientation is not currently addressed; the house manager does not perform a Virtual Walkthrough to orient security staff on the location of gates, forest blind sides, and utilities remains a vulnerability.",
+      "tier": "tier3",
+      "remediation": [
+        "Create a high-resolution video 'site orientation' guide covering all entry points and utility hubs.",
+        "Update the virtual walkthrough annually or after any significant landscaping or construction changes.",
+        "Maintain a digital map of the property's 'blind sides'\u2014areas with heavy forest cover\u2014and review patrol routes for these spots."
+      ]
+    }
+    ],
+    "PROCESS": [
+    {
+      "id": "PROCESS_001",
+      "control_description": "Emergency Access",
+      "question": "Is a current, one-page emergency contact chain (call tree list) posted or readily accessible (digitally & physically) to all family and staff?",
+      "yes_attribute": "A centralized, up-to-date emergency call tree is readily available in both physical and digital formats for all household members.",
+      "no_attribute": "Emergency contact information is fragmented or outdated, potentially delaying critical response actions during an incident.",
+      "tier": "tier1",
+      "remediation": [
+        "Create a one-page emergency call tree and store it in multiple accessible locations (printed + digital).",
+        "Include clear triggers for calling 911 vs internal contacts and key vendor numbers.",
+        "Review and update after any staff/contact change; test at least twice per year."
+      ]
+    },
+    {
+      "id": "PROCESS_002",
+      "control_description": "Default Credential Management",
+      "question": "When a new smart device (i.e. camera, lock) is added, is its default password immediately changed?",
+      "yes_attribute": "The household enforces a strict 'no-default-password' policy for all newly integrated smart devices and IoT hardware.",
+      "no_attribute": "Smart devices are frequently deployed with factory-default credentials, leaving the home network vulnerable to automated attacks.",
+      "tier": "tier1",
+      "remediation": [
+        "Create a 'new smart device' checklist: change default password, enable MFA, update firmware, set least-privilege.",
+        "Disable unused features (remote access, voice purchases, guest pairing) unless needed.",
+        "Record device owner, login, and update schedule in the asset inventory."
+      ]
+    },
+    {
+      "id": "PROCESS_003",
+      "control_description": "Key/Access Change",
+      "question": "Is there a specific person or process required to approve and document all changes to house/gate codes?",
+      "yes_attribute": "All changes to physical and digital access codes are governed by a formal approval and documentation process.",
+      "no_attribute": "Access codes are changed or issued without centralized oversight or a record of who authorized the update.",
+      "tier": "tier1",
+      "remediation": [
+        "Assign a single owner (or two-person approval) for issuing and changing house/gate codes.",
+        "Document all code changes (what changed, who requested, who approved, effective date).",
+        "Rotate codes on a schedule and immediately after staff/vendor separation."
+      ]
+    },
+    {
+      "id": "PROCESS_004",
+      "control_description": "Software/Hardware Updates",
+      "question": "Do we have a regular process to check all computers and smart systems for required updates and immediately fix any security warnings?",
+      "yes_attribute": "A defined cadence exists for patching and updating all household technology, ensuring vulnerabilities are addressed promptly.",
+      "no_attribute": "Technology updates are performed sporadically, and security warnings are often left unaddressed for extended periods.",
+      "tier": "tier1",
+      "remediation": [
+        "Set a patching cadence (e.g., weekly checks, monthly full update) for computers and smart-home systems.",
+        "Enable automatic updates where feasible and track devices that cannot auto-update.",
+        "Treat security warnings as incidents: assign an owner and due date to remediate."
+      ]
+    },
+    {
+      "id": "PROCESS_005",
+      "control_description": "Basic Data Rules",
+      "question": "Do we have clear rules for how long we keep sensitive files and how we safely destroy them (paper and digital)?",
+      "yes_attribute": "Defined retention and secure disposal rules ensure sensitive information is not kept longer than necessary or discarded insecurely.",
+      "no_attribute": "Sensitive physical and digital files are kept indefinitely or disposed of without proper shredding or digital wiping.",
+      "tier": "tier1",
+      "remediation": [
+        "Define retention rules for sensitive files (what to keep, where, and for how long).",
+        "Implement secure disposal for paper (shred) and digital (wipe/crypto-erase) per asset type.",
+        "Review stored sensitive data quarterly and remove what is no longer needed."
+      ]
+    },
+    {
+      "id": "PROCESS_006",
+      "control_description": "Incident Response Documentation",
+      "question": "Is there a documented plan for who to call and what to do immediately if a major security incident happens?",
+      "yes_attribute": "A documented security incident response playbook is maintained to guide family and staff through detection and recovery.",
+      "no_attribute": "The household lacks a formal incident response plan, leading to uncoordinated reactions during a security breach.",
+      "tier": "tier2",
+      "remediation": [
+        "Write a short incident response playbook (detect → contain → recover → notify) with roles and contacts.",
+        "Run a tabletop exercise (30 minutes) at least annually with staff/family.",
+        "Keep an incident log template to record what happened and actions taken."
+      ]
+    },
+    {
+      "id": "PROCESS_007",
+      "control_description": "Vendor Lifecycle Management",
+      "question": "Is there a process to check a vendor's security and legally manage their access before they start and after they finish work?",
+      "yes_attribute": "Formal onboarding and offboarding steps ensure that vendor access is vetted, restricted, and revoked upon completion.",
+      "no_attribute": "Vendors are granted access without formal vetting, and their permissions often remain active long after their work is finished.",
+      "tier": "tier2",
+      "remediation": [
+        "Create onboarding/offboarding steps for vendors: vetting, scope, access issued, and access removal.",
+        "Use least-privilege access and time-box vendor access where possible.",
+        "Require confirmation that access was removed at the end of work."
+      ]
+    },
+    {
+      "id": "PROCESS_008",
+      "control_description": "New System Checklists",
+      "question": "Are all new network devices (routers, firewalls) and computers set up following a documented secure checklist?",
+      "yes_attribute": "A mandatory secure build checklist is completed for every new network device or computer before it is put into service.",
+      "no_attribute": "New systems are added to the network without a standardized configuration check, leading to inconsistent security postures.",
+      "tier": "tier2",
+      "remediation": [
+        "Create a secure build checklist for routers/firewalls/computers (admin password, MFA, updates, logging).",
+        "Document baseline settings and store configurations securely.",
+        "Require the checklist to be completed before any new device is placed into service."
+      ]
+    },
+    {
+      "id": "PROCESS_009",
+      "control_description": "Privileged Account Separation",
+      "question": "Do the people who manage our technical systems (IT/Consultants) use separate, restricted accounts for daily work?",
+      "yes_attribute": "Administrative access is strictly separated from daily user accounts, minimizing the impact of a potential account compromise.",
+      "no_attribute": "Technical support and admin staff use high-privilege accounts for daily tasks, increasing the risk of accidental or malicious damage.",
+      "tier": "tier2",
+      "remediation": [
+        "Create separate admin accounts for IT/consultants; use standard accounts for daily work.",
+        "Require MFA for privileged accounts and restrict admin logins to necessary devices/networks.",
+        "Review privileged access quarterly and remove unused accounts."
+      ]
+    },
+    {
+      "id": "PROCESS_010",
+      "control_description": "Access Audits",
+      "question": "Do we regularly check to ensure only current, authorized people have access to systems and smart devices?",
+      "yes_attribute": "Quarterly access reviews are conducted to verify that only authorized personnel maintain access to critical systems and smart devices.",
+      "no_attribute": "User permissions are rarely audited, resulting in 'privilege creep' and active access for individuals no longer associated with the home.",
+      "tier": "tier2",
+      "remediation": [
+        "Perform a quarterly access review for key systems (email, cloud storage, cameras, access control).",
+        "Remove access for departed staff/vendors immediately and verify removal was successful.",
+        "Document the review and keep evidence of changes made."
+      ]
+    },
+    {
+      "id": "PROCESS_011",
+      "control_description": "Backup Verification",
+      "question": "Are system backups tested regularly to ensure we can restore all critical data after a failure?",
+      "yes_attribute": "Critical data backups are governed by a 3-2-1 strategy and are regularly tested to ensure successful restoration.",
+      "no_attribute": "Backups are assumed to be working but are not periodically tested, creating a high risk of total data loss during a failure.",
+      "tier": "tier3",
+      "remediation": [
+        "Define backup scope (what data/systems), frequency, and retention (e.g., 3-2-1).",
+        "Test restores on a schedule (monthly/quarterly) and document results.",
+        "Fix failed backups immediately and alert responsible staff."
+      ]
+    },
+    {
+      "id": "PROCESS_012",
+      "control_description": "Log Integrity",
+      "question": "Are we saving records (logs) of who accessed sensitive data, and is the time accurate on all security systems and cameras?",
+      "yes_attribute": "Centralized, time-synchronized logging provides a reliable audit trail for access to sensitive systems and physical areas.",
+      "no_attribute": "Logging is disabled or inconsistent across devices, and inaccurate system clocks make existing records difficult to use in an investigation.",
+      "tier": "tier3",
+      "remediation": [
+        "Enable logging on critical systems (routers, cameras, access control, key accounts) and centralize where possible.",
+        "Ensure all systems use correct time sync (NTP) to make logs usable.",
+        "Review logs/alerts on a schedule or route them to a managed service."
+      ]
+    },
+    {
+      "id": "PROCESS_013",
+      "control_description": "Authorized Software Only",
+      "question": "Are all computers set up to only allow authorized programs and software to run?",
+      "yes_attribute": "Application allowlisting and restricted admin rights prevent the execution of unauthorized or malicious software on home computers.",
+      "no_attribute": "Users have full administrative rights to install any software, significantly increasing the risk of malware and unmanaged apps.",
+      "tier": "tier3",
+      "remediation": [
+        "Enable application allowlisting or restrict installs to approved software via admin controls.",
+        "Remove local admin rights from daily user accounts where feasible.",
+        "Review installed software quarterly and remove unauthorized applications."
+      ]
+    },
+    {
+      "id": "PROCESS_014",
+      "control_description": "Pre-Purchase Vetting",
+      "question": "Do we have a formal process to approve all new software and hardware before they are purchased and used in the home?",
+      "yes_attribute": "A formal vetting process ensures all new technology meets security criteria before being introduced into the household environment.",
+      "no_attribute": "Hardware and software are purchased and connected to the home network ad-hoc, without security review or approval.",
+      "tier": "tier3",
+      "remediation": [
+        "Establish an approval step for new hardware/software purchases (who approves, criteria, and documentation).",
+        "Maintain an 'approved tools' list and restrict installs to that list.",
+        "Review exceptions and document compensating controls."
+      ]
+    },
+    {
+      "id": "PROCESS_015",
+      "control_description": "Onboarding",
+      "question": "Is there a formal Day 1 security briefing for new household staff or long-term guests?",
+      "yes_attribute": "A standardized security briefing ensures all new staff and long-term guests understand their roles and responsibilities from day one.",
+      "no_attribute": "New staff and guests are introduced to the home without a structured security orientation, leading to accidental protocol breaches.",
+      "tier": "tier1",
+      "remediation": [
+        "Document a lightweight process/checklist for 'Onboarding' (owner, steps, and when it must be performed).",
+        "Make it easy to follow: templates, logs, and a recurring schedule (calendar reminder) for reviews.",
+        "Test the process occasionally (tabletop or spot-check), and update it when systems/staff change."
+      ]
+    },
+    {
+      "id": "PROCESS_016",
+      "control_description": "Drills/ Exercises",
+      "question": "Do you conduct a Tabletop walk-through of your Emergency Call Tree at least once a year to ensure numbers are current?",
+      "yes_attribute": "Annual tabletop exercises verify that emergency contact protocols and call trees remain functional and accurate.",
+      "no_attribute": "Emergency procedures are never practiced, increasing the likelihood of failure during a high-stress security event.",
+      "tier": "tier2",
+      "remediation": [
+        "Document a lightweight process/checklist for 'Drills/ Exercises' (owner, steps, and when it must be performed).",
+        "Make it easy to follow: templates, logs, and a recurring schedule (calendar reminder) for reviews.",
+        "Test the process occasionally (tabletop or spot-check), and update it when systems/staff change."
+      ]
+    },
+    {
+      "id": "PROCESS_017",
+      "control_description": "Continuous Improvement",
+      "question": "Is there an after events review process to update security protocols every time a device fails or a minor security lapse occurs?",
+      "yes_attribute": "The household utilizes a formal 'post-mortem' process to refine security protocols following any technical failure or minor incident.",
+      "no_attribute": "Security lapses and technical failures are resolved without reviewing or updating the underlying processes to prevent recurrence.",
+      "tier": "tier3",
+      "remediation": [
+        "Document a lightweight process/checklist for 'Continuous Improvement' (owner, steps, and when it must be performed).",
+        "Make it easy to follow: templates, logs, and a recurring schedule (calendar reminder) for reviews.",
+        "Test the process occasionally (tabletop or spot-check), and update it when systems/staff change."
+      ]
+    },
+    {
+      "id": "PROCESS_018",
+      "control_description": "Compliance/ Audit",
+      "question": "Do you have an annual third-party review of your physical and digital access controls?",
+      "yes_attribute": "External third-party reviews provide objective verification that physical and digital security controls are operating effectively.",
+      "no_attribute": "Security controls are never externally validated, leaving potential blind spots and weaknesses undiscovered.",
+      "tier": "tier3",
+      "remediation": [
+        "Document a lightweight process/checklist for 'Compliance/ Audit' (owner, steps, and when it must be performed).",
+        "Make it easy to follow: templates, logs, and a recurring schedule (calendar reminder) for reviews.",
+        "Test the process occasionally (tabletop or spot-check), and update it when systems/staff change."
+      ]
+    },
+    {
+      "id": "PROCESS_019",
+      "control_description": "Credential Audit",
+      "question": "As part of the closing or move-in process, has a date been established to void all previous construction-phase access and secure the site for the new occupants?",
+      "yes_attribute": "Credential Audit is fully implemented; there a hard cut-off date to revoke all contractor temporary codes/keys and re-key the locks.",
+      "no_attribute": "Credential Audit is not currently addressed; there a hard cut-off date to revoke all contractor temporary codes/keys and re-key the locks remains a vulnerability.",
+      "tier": "tier1",
+      "remediation": [
+        "Set a calendar mandate for completion to expire all temporary digital access codes in the system.",
+        "Collect all physical 'Master' or 'Construction' keys and perform a re-keying of all external perimeter locks.",
+        "Audit the access logs one week after the cut-off to ensure no defunct codes are still being utilized."
+      ]
+    },
+    {
+      "id": "PROCESS_020",
+      "control_description": "Active Job Site Monitoring",
+      "question": "Is there a documented process for monitoring finished areas if there is an open construction site?",
+      "yes_attribute": "Active Job Site Monitoring is fully implemented; there a documented process for monitoring finished areas while incomplete areas remain an open construction site.",
+      "no_attribute": "Active Job Site Monitoring is not currently addressed; there a documented process for monitoring finished areas while other areas remain an open construction site, creating a risk.",
+      "tier": "tier2",
+      "remediation": [
+        "Implement a 'Locked Zone' policy where the other buildings are physically keyed differently from any active construction site.",
+        "Assign a specific security detail or staff member to perform daily sweeps of the completed building interior.",
+        "Install temporary internal motion sensors in the completed areas that alert the owner/manager directly, bypassing the general site crew."
+      ]
+    },
+    {
+      "id": "PROCESS_021",
+      "control_description": "Manual Overrides",
+      "question": "If fiber is cut at the external hub, is there a manual analog override for the Generac/Solar system that the family can operate without an app?",
+      "yes_attribute": "Manual Overrides is fully implemented; if fiber is cut at the external hub, is there a manual analog override for the Generac/Solar system that the family can operate without an app.",
+      "no_attribute": "Manual Overrides is not currently addressed; if fiber is cut at the external hub, is there a manual analog override for the Generac/Solar system that the family can operate without an app remains a vulnerability.",
+      "tier": "tier2",
+      "remediation": [
+        "Label all manual transfer switches and override handles with clear, weather-resistant instructions.",
+        "Conduct a quarterly 'blackout drill' where the family practices manually starting the power systems without using a smartphone.",
+        "Store a physical key to the generator/solar control cabinet in a secure but accessible 'Emergency Box' inside the house."
+      ]
+    }
+  ],
+  "TECHNOLOGY": [
+    {
+      "id": "TECHNOLOGY_001",
+      "control_description": "Network Segmentation (Guest Wi-Fi)",
+      "question": "Do you use a separate Guest network for visitors and a dedicated IoT network for smart devices (cameras, thermostats) to keep them away from your private computers?",
+      "yes_attribute": "The home network is properly segmented, isolating guest and IoT traffic from sensitive personal data and computers.",
+      "no_attribute": "The network lacks segmentation, allowing potentially insecure IoT devices or guest hardware to interact with private systems.",
+      "tier": "tier1",
+      "remediation": [
+        "Standardize the configuration for 'Network Segmentation (Guest Wi-Fi)' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_002",
+      "control_description": "Update Management",
+      "question": "Are all critical devices (routers, cameras, phones) set to Auto-Update, or is there a monthly check to ensure firmware is current?",
+      "yes_attribute": "Critical hardware and mobile devices are maintained with the latest security patches via automated updates or regular checks.",
+      "no_attribute": "Devices are running outdated firmware, leaving the household vulnerable to known exploits and security flaws.",
+      "tier": "tier1",
+      "remediation": [
+        "Standardize the configuration for 'Update Management' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_003",
+      "control_description": "Unique Credentials",
+      "question": "Has every device on the network been changed from its factory-default username and password to a unique, strong credential?",
+      "yes_attribute": "All networked hardware has been secured with unique, non-default credentials, preventing easy unauthorized access.",
+      "no_attribute": "Factory-default credentials remain in use on some devices, making them easy targets for automated intrusion tools.",
+      "tier": "tier1",
+      "remediation": [
+        "Standardize the configuration for 'Unique Credentials' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_004",
+      "control_description": "Endpoint Protection",
+      "question": "Is reputable anti-malware or endpoint security software installed and active on all family-used laptops and tablets?",
+      "yes_attribute": "Laptops and tablets are protected by active, centrally managed or regularly updated anti-malware software.",
+      "no_attribute": "Family computing devices lack consistent endpoint protection, increasing the risk of virus or ransomware infections.",
+      "tier": "tier1",
+      "remediation": [
+        "Standardize the configuration for 'Endpoint Protection' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_005",
+      "control_description": "Device Inventory (Fingerprinting)",
+      "question": "Do you maintain an automated or manual list of every MAC address and device type authorized to be on your network?",
+      "yes_attribute": "A formal device inventory exists, allowing for the immediate identification of unauthorized hardware on the network.",
+      "no_attribute": "The household lacks a formal list of authorized devices, making it difficult to detect 'shadow' or rogue devices.",
+      "tier": "tier2",
+      "remediation": [
+        "Standardize the configuration for 'Device Inventory (Fingerprinting)' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_006",
+      "control_description": "Encryption Standards",
+      "question": "Is your Wi-Fi using at least WPA3 (or a strong WPA2) encryption, and are all smart-home communications (like camera feeds) encrypted in transit?",
+      "yes_attribute": "Wireless and IoT communications utilize strong encryption standards to protect data and feeds from eavesdropping.",
+      "no_attribute": "Weak encryption or unencrypted traffic allows for potential interception of private communications or camera feeds.",
+      "tier": "tier2",
+      "remediation": [
+        "Standardize the configuration for 'Encryption Standards' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_007",
+      "control_description": "Hardware Hardening",
+      "question": "Have unused physical ports on routers or wall jacks in public-facing areas (like guest rooms) been electronically disabled?",
+      "yes_attribute": "Unused physical network ports are disabled, preventing intruders from gaining wired access to the home network.",
+      "no_attribute": "Active, unsecured network ports are available in public or guest areas, presenting a risk of unauthorized physical connection.",
+      "tier": "tier2",
+      "remediation": [
+        "Standardize the configuration for 'Hardware Hardening' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_008",
+      "control_description": "Credential Vaulting",
+      "question": "Does the household use a centralized, secure Password Manager (e.g., Bitwarden, 1Password) to manage and share necessary technology credentials?",
+      "yes_attribute": "The household utilizes a secure password manager to enforce credential complexity and enable safe password sharing.",
+      "no_attribute": "Credentials are managed insecurely (e.g., via paper, simple files, or shared texts), leading to poor password hygiene.",
+      "tier": "tier2",
+      "remediation": [
+        "Standardize the configuration for 'Credential Vaulting' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_009",
+      "control_description": "Behavioral Anomaly Detection",
+      "question": "Does your network hardware utilize AI or machine learning to alert you if a device (like a smart fridge) suddenly starts sending large amounts of data to an unknown country?",
+      "yes_attribute": "Advanced network monitoring detects and alerts on anomalous data patterns that may indicate a compromised device.",
+      "no_attribute": "The network has no visibility into behavioral anomalies, meaning a compromised IoT device could go undetected for months.",
+      "tier": "tier3",
+      "remediation": [
+        "Standardize the configuration for 'Behavioral Anomaly Detection' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_010",
+      "control_description": "Automated Log Analysis",
+      "question": "Are your system and security logs automatically reviewed by a service or tool to flag suspicious login attempts or drift from your secure configuration?",
+      "yes_attribute": "Security logs are automatically analyzed to identify configuration drift or suspicious authentication attempts.",
+      "no_attribute": "System logs are collected but never reviewed, leaving no way to proactively identify security incidents.",
+      "tier": "tier3",
+      "remediation": [
+        "Standardize the configuration for 'Automated Log Analysis' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_011",
+      "control_description": "Vulnerability Scanning",
+      "question": "Do you perform an automated internal vulnerability scan of your home network at least once a quarter to find unpatched devices?",
+      "yes_attribute": "Periodic internal scans proactively identify unpatched hardware or insecure configurations across the entire network.",
+      "no_attribute": "Vulnerabilities remain undiscovered until an incident occurs because no proactive scanning is performed.",
+      "tier": "tier3",
+      "remediation": [
+        "Standardize the configuration for 'Vulnerability Scanning' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_012",
+      "control_description": "Redundancy & Failover",
+      "question": "Is your critical technology (security cameras/internet) equipped with battery backups and a secondary failover internet source (like a 5G cellular backup)?",
+      "yes_attribute": "Critical security systems maintain operation during power or primary ISP outages via failover and battery backup.",
+      "no_attribute": "A single point of failure (power or ISP) can disable all household security and communication systems.",
+      "tier": "tier3",
+      "remediation": [
+        "Standardize the configuration for 'Redundancy & Failover' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_013",
+      "control_description": "Physical Ports",
+      "question": "Are all external-facing network cables (e.g., for outdoor IP cameras) physically secured so an intruder cannot unplug the camera and plug in a laptop?",
+      "yes_attribute": "Exterior network cabling is physically protected, preventing an attacker from tampering with or joining the network from outside.",
+      "no_attribute": "Exposed network cables provide an easy avenue for an intruder to bypass external cameras and gain network access.",
+      "tier": "tier1",
+      "remediation": [
+        "Standardize the configuration for 'Physical Ports' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_014",
+      "control_description": "Remote Access",
+      "question": "Is remote access to your home systems (VPN/Smart Home apps) protected by hardware-based Multi-Factor Authentication (MFA), such as a security key?",
+      "yes_attribute": "Remote access is secured by hardware-based MFA, offering superior protection against credential theft and phishing.",
+      "no_attribute": "Remote access relies on simple passwords or weak MFA, leaving the home systems vulnerable to remote takeover.",
+      "tier": "tier2",
+      "remediation": [
+        "Standardize the configuration for 'Remote Access' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_015",
+      "control_description": "Threat Intelligence",
+      "question": "Do you subscribe to or receive Threat Intelligence updates that specifically alert you to new vulnerabilities in the specific brands of hardware you use?",
+      "yes_attribute": "The household utilizes specific threat intelligence to stay ahead of zero-day exploits targeting their specific hardware stack.",
+      "no_attribute": "The household is unaware of new vulnerabilities affecting their specific equipment until after a patch is widely released.",
+      "tier": "tier3",
+      "remediation": [
+        "Standardize the configuration for 'Threat Intelligence' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_016",
+      "control_description": "Privacy Harvesting",
+      "question": "Have you audited your Smart devices to disable unnecessary data collection features (e.g., microphones on TVs or location tracking on appliances)?",
+      "yes_attribute": "Privacy-focused configurations are applied to all smart devices to minimize unnecessary data harvesting and tracking.",
+      "no_attribute": "Default 'Smart' settings remain active, potentially allowing vendors to collect sensitive audio or location data from within the home.",
+      "tier": "tier3",
+      "remediation": [
+        "Standardize the configuration for 'Privacy Harvesting' across all devices/accounts (baseline settings and required features).",
+        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
+        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_017",
+      "control_description": "Network Segregation",
+      "question": "If applicable: Is the SolarField controller isolated on a secured, air-gapped VLAN rather than the general-use family Wi-Fi?",
+      "yes_attribute": "Network Segregation is fully implemented; the SolarField controller isolated on a secured, air-gapped VLAN rather than the general-use family Wi-Fi.",
+      "no_attribute": "Network Segregation is not currently addressed; the SolarField controller isolated on a secured, air-gapped VLAN rather than the general-use family Wi-Fi remains a vulnerability.",
+      "tier": "tier2",
+      "remediation": [
+        "Work with the IT/Network provider to move all industrial controllers (Solar, HVAC, Water) to a dedicated 'IOT' VLAN.",
+        "Apply strict firewall rules that prevent any traffic from the Guest or Family Wi-Fi from reaching the SolarField controller.",
+        "Disable any 'Cloud Management' features on the controller that are not strictly necessary for operation."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_018",
+      "control_description": "System Specification",
+      "question": "Has the house manager provided technical specs for the governing security systems, confirming if it is local or cloud-based?",
+      "yes_attribute": "System Specification is fully implemented; the house manager provided technical specs for the governing security systems, confirming if it is local or cloud-based.",
+      "no_attribute": "System Specification is not currently addressed; the house manager provided technical specs for the governing security systems, confirming if it is local or cloud-based remains a vulnerability.",
+      "tier": "tier2",
+      "remediation": [
+        "Request the technical architecture diagram from the governing security systems installer to verify data storage locations.",
+        "Determine if the system functions during an internet outage; if not, prioritize a local-host bridge.",
+        "Review the governing security systems privacy policy to ensure household data isn't being sold or shared with third-party aggregators."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_019",
+      "control_description": "Subscription Governance",
+      "question": "Is there a verified plan for managing monthly subscriptions for Pro features required by governing security systems?",
+      "yes_attribute": "Subscription Governance is fully implemented; there is a verified plan for managing monthly subscriptions for Pro features required by critical systems.",
+      "no_attribute": "Subscription Governance is not currently addressed; there is a verified plan for managing monthly subscriptions for Pro features required by critical systems remains a vulnerability.",
+      "tier": "tier3",
+      "remediation": [
+        "Create a 'Technology Subscription Ledger' that tracks the renewal dates and payment methods for all security-critical apps.",
+        "Set up auto-renewal on a dedicated household credit card to prevent 'Pro' security features from lapsing.",
+        "Designate the House Manager as the primary 'Admin' for these accounts to ensure continuity if the owner is unavailable."
+      ]
+    }
+  ],
+  "PHYSICAL": [
+    {
+      "id": "PHYSICAL_001",
+      "control_description": "Window and Glass Hardening",
+      "question": "Are ground-level and easily accessible windows protected by security film or shatter-resistant glass?",
+      "yes_attribute": "Accessible windows are reinforced with security film or laminated glass, significantly delaying or preventing forced entry.",
+      "no_attribute": "Standard glass windows are unprotected, providing a high-risk point of rapid entry for intruders.",
+      "tier": "tier1",
+      "remediation": [
+        "Install security film or upgrade to laminated/shatter-resistant glass on vulnerable windows.",
+        "Ensure window locks function and are used; add secondary locks where appropriate.",
+        "Improve exterior lighting and camera coverage around ground-level windows."
+      ]
+    },
+    {
+      "id": "PHYSICAL_002",
+      "control_description": "Perimeter Hardening & Concealment (CPTED)",
+      "question": "Are shrubs near windows and doors trimmed low to prevent hiding places, and are exterior gates in good repair?",
+      "yes_attribute": "Landscaping is maintained to eliminate concealment points, and perimeter gates are structurally sound and secure.",
+      "no_attribute": "Overgrown foliage or damaged gates provide hiding spots and easy bypass opportunities for unauthorized individuals.",
+      "tier": "tier1",
+      "remediation": [
+        "Trim landscaping near doors/windows to eliminate concealment and improve visibility from the street.",
+        "Repair/secure exterior gates, latches, and fences; keep gates closed when not in active use.",
+        "Add motion lighting and consider signage or visible cameras for deterrence."
+      ]
+    },
+    {
+      "id": "PHYSICAL_003",
+      "control_description": "Fire Protection System Maintenance",
+      "question": "Are all smoke and carbon monoxide detectors tested and confirmed working monthly?",
+      "yes_attribute": "Smoke and CO detectors are tested on a monthly cadence, ensuring life-safety systems are fully operational.",
+      "no_attribute": "Fire and CO detection systems are not regularly tested, creating a significant risk of failure during a life-safety event.",
+      "tier": "tier1",
+      "remediation": [
+        "Test smoke/CO alarms monthly and replace batteries as needed; document tests in a simple log.",
+        "Replace devices per manufacturer guidance (often 7–10 years) and ensure coverage in all required areas.",
+        "If present, test monitoring/central station notifications during a scheduled window."
+      ]
+    },
+    {
+      "id": "PHYSICAL_004",
+      "control_description": "Utility Control Point Security",
+      "question": "Are the main electric, water, and gas shut-offs accessible for emergencies but secured against unauthorized access?",
+      "yes_attribute": "Critical utility shut-offs are secured from tampering while remaining accessible to authorized personnel for emergency use.",
+      "no_attribute": "Utility controls are exposed or unsecured, allowing an intruder to disable power, water, or gas from the exterior.",
+      "tier": "tier1",
+      "remediation": [
+        "Confirm shut-offs are labeled and accessible to authorized staff for emergencies.",
+        "Secure access panels/areas (lock covers, fenced utility area) to prevent tampering.",
+        "Document the location and operation steps; review annually with staff."
+      ]
+    },
+    {
+      "id": "PHYSICAL_005",
+      "control_description": "Storage of Arms and Dangerous Substances",
+      "question": "Are all firearms and dangerous substances stored unloaded, locked, and separate from ammunition?",
+      "yes_attribute": "Hazardous materials and firearms are stored in secure, locked containers with ammunition or triggers separated.",
+      "no_attribute": "Firearms or dangerous substances are stored insecurely or with ammunition, presenting a high risk of accidental or unauthorized use.",
+      "tier": "tier1",
+      "remediation": [
+        "Store firearms unloaded in a locked safe/cabinet; store ammunition separately in a locked container.",
+        "Limit safe access to authorized adults and keep combinations/keys secured.",
+        "Document a quick monthly check to confirm storage practices are followed."
+      ]
+    },
+    {
+      "id": "PHYSICAL_006",
+      "control_description": "Physical Access Controls",
+      "question": "Do all main exterior doors and security gates rely on electronic (code/card) access rather than simple physical keys?",
+      "yes_attribute": "Electronic access control is standardized across the perimeter, allowing for audit trails and rapid credential revocation.",
+      "no_attribute": "The property relies on traditional keys, which are easily duplicated and cannot be easily tracked or revoked.",
+      "tier": "tier2",
+      "remediation": [
+        "Standardize on electronic access where appropriate (codes/cards) and avoid uncontrolled key copying.",
+        "Enable individual codes per person and disable codes immediately when access is no longer needed.",
+        "Keep a written procedure for issuing, changing, and revoking access."
+      ]
+    },
+    {
+      "id": "PHYSICAL_007",
+      "control_description": "Key and Access Media Inventory",
+      "question": "Do we maintain a current, verifiable list of all issued physical keys and electronic access codes?",
+      "yes_attribute": "A comprehensive inventory tracks every physical key and digital credential issued for the property.",
+      "no_attribute": "There is no formal record of how many keys or codes exist or who currently possesses them.",
+      "tier": "tier2",
+      "remediation": [
+        "Create an inventory of all keys/codes/fobs with owner, issued date, and access scope.",
+        "Require check-in/check-out for spares and immediately report/replace lost keys or compromised codes.",
+        "Review the inventory quarterly and reconcile against actual keys/fobs."
+      ]
+    },
+    {
+      "id": "PHYSICAL_008",
+      "control_description": "Secure Technical Infrastructure",
+      "question": "Are closets, cabinets, or rooms holding network equipment and servers kept locked?",
+      "yes_attribute": "Critical IT and security infrastructure is housed in locked enclosures to prevent physical tampering.",
+      "no_attribute": "Network equipment is exposed in unlocked areas, allowing an intruder to bypass digital security via physical access.",
+      "tier": "tier2",
+      "remediation": [
+        "Move network/server gear into a lockable closet/cabinet; restrict keys/codes to authorized personnel.",
+        "Label and cable-manage equipment to reduce accidental unplugging/tampering.",
+        "Add a tamper-evident seal or basic door contact sensor if risk warrants."
+      ]
+    },
+    {
+      "id": "PHYSICAL_009",
+      "control_description": "Secure Storage of Sensitive Assets",
+      "question": "Is the combination or key for the safe/vault known only to authorized family members and protected?",
+      "yes_attribute": "Knowledge of safe and vault combinations is restricted to primary stakeholders and managed via secure rotation.",
+      "no_attribute": "Safe combinations are shared widely or stored in obvious locations, compromising the security of high-value assets.",
+      "tier": "tier2",
+      "remediation": [
+        "Limit safe/vault combination/key knowledge to authorized family members; avoid sharing with staff.",
+        "Store backup keys/combinations securely (sealed envelope in locked location or managed by attorney/security provider).",
+        "Rotate combinations after personnel changes or suspected exposure."
+      ]
+    },
+    {
+      "id": "PHYSICAL_010",
+      "control_description": "Physical Data Destruction",
+      "question": "Are all documents containing personal information (mail, invoices) shredded before they are thrown away?",
+      "yes_attribute": "All physical documents containing PII are systematically shredded, preventing data theft via trash scavenging.",
+      "no_attribute": "Sensitive documents are discarded intact, exposing the household to identity theft or financial fraud.",
+      "tier": "tier2",
+      "remediation": [
+        "Provide a cross-cut shredder or contracted shredding bin for mail/invoices/PII.",
+        "Define what must be shredded (financial docs, medical, IDs, passwords) and train staff.",
+        "Do periodic disposal checks to ensure sensitive paper is not going into trash/recycling unshredded."
+      ]
+    },
+    {
+      "id": "PHYSICAL_011",
+      "control_description": "Surveillance & Lighting",
+      "question": "Is the video footage from all exterior security cameras actively monitored or reviewed daily?",
+      "yes_attribute": "Surveillance footage is actively reviewed or alert-monitored to ensure ongoing situational awareness.",
+      "no_attribute": "Cameras record data but the footage is never reviewed unless an incident is already known to have occurred.",
+      "tier": "tier3",
+      "remediation": [
+        "Assign responsibility for daily camera review or configure alerts for key events (motion, door contacts).",
+        "Ensure footage retention is sufficient (e.g., 14–30 days) and time settings are correct.",
+        "Test camera views/lighting quarterly and fix blind spots or failed cameras promptly."
+      ]
+    },
+    {
+      "id": "PHYSICAL_012",
+      "control_description": "Visitor/Vendor Management",
+      "question": "Does someone record the name and time of arrival/departure for every vendor or visitor who enters the property?",
+      "yes_attribute": "A formal access log tracks every non-resident arrival and departure, creating a verifiable audit trail.",
+      "no_attribute": "Vendors and visitors enter and leave the property without any formal record of their presence or duration of stay.",
+      "tier": "tier3",
+      "remediation": [
+        "Implement a visitor/vendor log (paper logbook or simple digital form) capturing name, company, purpose, and timestamps.",
+        "Require identity verification for first-time vendors (ID + scheduled work confirmation).",
+        "Ensure visitors are escorted or limited to approved areas while on site."
+      ]
+    },
+    {
+      "id": "PHYSICAL_013",
+      "control_description": "Alarm System Integrity and Testing",
+      "question": "Has the primary intrusion and panic alarm system been tested successfully in the last 30 days?",
+      "yes_attribute": "Intrusion and panic systems are verified through monthly functional testing and signal confirmation.",
+      "no_attribute": "The alarm system has not been tested recently, leaving potential sensor or communication failures undiscovered.",
+      "tier": "tier3",
+      "remediation": [
+        "Schedule monthly alarm tests (including panic buttons) and record results.",
+        "Verify monitoring contacts and call lists are current; update after staff changes.",
+        "Fix any sensor trouble/battery warnings within a defined SLA (e.g., 72 hours)."
+      ]
+    },
+    {
+      "id": "PHYSICAL_014",
+      "control_description": "Lighting",
+      "question": "Is exterior lighting high-intensity and motion-activated at all primary entry/exit points?",
+      "yes_attribute": "Strategic motion-activated lighting provides high-intensity illumination at all vulnerable entry points.",
+      "no_attribute": "Exterior lighting is inadequate or non-functional, providing cover for unauthorized movement around the property.",
+      "tier": "tier1",
+      "remediation": [
+        "Implement or verify the physical control for 'Lighting' (locks, barriers, lighting, sensors) in the relevant areas.",
+        "Add a simple maintenance/test cadence (monthly/quarterly) and log issues until resolved.",
+        "Reduce bypass risk: limit key/code access, fix weak points, and validate the control still works after changes."
+      ]
+    },
+    {
+      "id": "PHYSICAL_015",
+      "control_description": "Redundancy",
+      "question": "Is there a secondary power source (UPS or Generator) for the security system and electronic locks?",
+      "yes_attribute": "Resilient power solutions ensure that security systems and locks remain operational during local utility outages.",
+      "no_attribute": "The security system lacks backup power, rendering the property vulnerable during any electrical interruption.",
+      "tier": "tier2",
+      "remediation": [
+        "Implement or verify the physical control for 'Redundancy' (locks, barriers, lighting, sensors) in the relevant areas.",
+        "Add a simple maintenance/test cadence (monthly/quarterly) and log issues until resolved.",
+        "Reduce bypass risk: limit key/code access, fix weak points, and validate the control still works after changes."
+      ]
+    },
+    {
+      "id": "PHYSICAL_016",
+      "control_description": "Access Revocation",
+      "question": "When a staff member or vendor is terminated/finished, is there a process to revoke their digital access within 1 hour?",
+      "yes_attribute": "A rapid-response protocol exists to terminate digital access immediately upon staff or vendor departure.",
+      "no_attribute": "Access credentials remain active long after service ends, creating a significant window of unauthorized entry.",
+      "tier": "tier3",
+      "remediation": [
+        "Implement or verify the physical control for 'Access Revocation' (locks, barriers, lighting, sensors) in the relevant areas.",
+        "Add a simple maintenance/test cadence (monthly/quarterly) and log issues until resolved.",
+        "Reduce bypass risk: limit key/code access, fix weak points, and validate the control still works after changes."
+      ]
+    },
+    {
+      "id": "PHYSICAL_017",
+      "control_description": "Blind Spot Audit",
+      "question": "Have you performed a dark walk or used a drone to identify blind spots in your surveillance coverage in the last 6 months?",
+      "yes_attribute": "Regular surveillance audits identify and remediate visual blind spots in the property's coverage.",
+      "no_attribute": "The property's surveillance coverage has not been audited for gaps, leaving hidden paths for intruders.",
+      "tier": "tier3",
+      "remediation": [
+        "Implement or verify the physical control for 'Blind Spot Audit' (locks, barriers, lighting, sensors) in the relevant areas.",
+        "Add a simple maintenance/test cadence (monthly/quarterly) and log issues until resolved.",
+        "Reduce bypass risk: limit key/code access, fix weak points, and validate the control still works after changes."
+      ]
+    },
+    {
+      "id": "PHYSICAL_018",
+      "control_description": "System Health Metrics",
+      "question": "Does the system provide automated alerts if a camera goes offline or a hard drive fails to record?",
+      "yes_attribute": "Automated health monitoring ensures that technical failures in the security system are reported and addressed immediately.",
+      "no_attribute": "Security hardware failures are only discovered after an incident, as there is no proactive system health alerting.",
+      "tier": "tier3",
+      "remediation": [
+        "Implement or verify the physical control for 'System Health Metrics' (locks, barriers, lighting, sensors) in the relevant areas.",
+        "Add a simple maintenance/test cadence (monthly/quarterly) and log issues until resolved.",
+        "Reduce bypass risk: limit key/code access, fix weak points, and validate the control still works after changes."
+      ]
+    },
+    {
+      "id": "PHYSICAL_019",
+      "control_description": "Infrastructure Hardening",
+      "question": "Are the utility structures housed in reinforced enclosures (e.g., steel-reinforced, anti-cut mesh, or concrete)?",
+      "yes_attribute": "Infrastructure Hardening is fully implemented; the utility structures housed in reinforced enclosures (e.g., steel-reinforced, anti-cut mesh, or concrete).",
+      "no_attribute": "Infrastructure Hardening is not currently addressed; the utility structures housed in reinforced enclosures (e.g., steel-reinforced, anti-cut mesh, or concrete) remains a vulnerability.",
+      "tier": "tier1",
+      "remediation": [
+        "Consult with a structural engineer to design or procure enclosures that meet anti-cut and forced-entry standards.",
+        "Install reinforced steel or concrete housing for external power and fiber hubs.",
+        "Inspect enclosures monthly for signs of tampering or structural degradation."
+      ]
+    },
+    {
+      "id": "PHYSICAL_020",
+      "control_description": "Environmental Resilience",
+      "question": "Are external utility structures (generators, fiber connections) protected against extreme winter conditions (cold/snow-loading)?",
+      "yes_attribute": "Environmental Resilience is fully implemented; external utility structures (generators, fiber connections) protected against extreme winter conditions (cold/snow-loading).",
+      "no_attribute": "Environmental Resilience is not currently addressed; external utility structures (generators, fiber connections) protected against extreme winter conditions (cold/snow-loading) remains a vulnerability.",
+      "tier": "tier1",
+      "remediation": [
+        "Install localized heating elements or 'cold weather kits' for generators to ensure startup in sub-zero temperatures.",
+        "Ensure all external fiber/utility housing is rated for high snow-load weight to prevent structural collapse.",
+        "Clear snow buildup from around intake/exhaust vents after every major storm to prevent system failure."
+      ]
+    },
+    {
+      "id": "PHYSICAL_021",
+      "control_description": "Perimeter Monitoring",
+      "question": "Is the perimeter of the solar field fenced to prevent theft and vandalism, or is it open to the rest of the property?",
+      "yes_attribute": "Perimeter Monitoring is fully implemented; the perimeter of the solar field fenced to prevent theft and vandalism, or is it open to the rest of the property.",
+      "no_attribute": "Perimeter Monitoring is not currently addressed; the perimeter of the solar field fenced to prevent theft and vandalism, or is it open to the rest of the property remains a vulnerability.",
+      "tier": "tier2",
+      "remediation": [
+        "Install commercial-grade perimeter fencing specifically around the solar array.",
+        "Add 'No Trespassing' signage and anti-climb measures to the solar field boundary.",
+        "Integrate the solar fence line into the main security monitoring system with vibration or break-wire sensors."
+      ]
+    },
+    {
+      "id": "PHYSICAL_022",
+      "control_description": "Access Monitoring",
+      "question": "Do external utility structures have dedicated, independent tamper sensors and 24/7 camera coverage with cellular failover?",
+      "yes_attribute": "Access Monitoring is fully implemented; external utility structures have dedicated, independent tamper sensors and 24/7 camera coverage with cellular failover.",
+      "no_attribute": "Access Monitoring is not currently addressed; external utility structures have dedicated, independent tamper sensors and 24/7 camera coverage with cellular failover remains a vulnerability.",
+      "tier": "tier3",
+      "remediation": [
+        "Equip all utility cabinets with contact sensors that trigger an immediate alert if opened unauthorized.",
+        "Deploy cameras with onboard storage and dedicated cellular uplinks to ensure recording even if the main house fiber is cut.",
+        "Test the cellular failover monthly to ensure the signal strength is sufficient for high-definition video."
+      ]
+    }
+  ],
+  "RISK_MANAGEMENT": [
+    {
+      "id": "RISK_MANAGEMENT_001",
+      "control_description": "Personal Risk Assessment",
+      "question": "Has the family's online presence and privacy settings (social media) been reviewed for exposure in the last 6 months?",
+      "yes_attribute": "The family’s digital footprint is regularly audited, ensuring privacy settings are maximized and public exposure is minimized.",
+      "no_attribute": "Lack of digital footprint oversight leaves family members vulnerable to doxxing, impersonation, or targeted social engineering.",
+      "tier": "tier1",
+      "remediation": [
+        "Review social media and public data exposure for family members every 6 months.",
+        "Lock down privacy settings and remove unnecessary public identifiers (address, routines, schools).",
+        "Set alerts for doxxing/impersonation and document escalation steps."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_002",
+      "control_description": "Basic Continuity",
+      "question": "Is a backup location or emergency financial plan documented and known to the primary family contacts?",
+      "yes_attribute": "A clear continuity plan exists, providing family members with a known backup location and immediate access to emergency funds.",
+      "no_attribute": "The absence of a documented continuity plan could lead to confusion and lack of resources during a relocation-level emergency.",
+      "tier": "tier1",
+      "remediation": [
+        "Document a backup location and/or relocation plan (where to go, who coordinates, what to bring).",
+        "Ensure emergency funds and essential documents are accessible to primary contacts.",
+        "Review the plan annually and after major life changes."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_003",
+      "control_description": "Standard Vetting",
+      "question": "Is a security or background check required before any new vendor is given physical or digital access?",
+      "yes_attribute": "All third-party vendors undergo formal vetting before being granted any level of access to the property or its systems.",
+      "no_attribute": "Vendors are granted access without background checks, introducing significant insider risk to the household.",
+      "tier": "tier1",
+      "remediation": [
+        "Require vetting for new vendors (identity, references, background/security check as appropriate).",
+        "Limit vendor access to the minimum needed and time-box credentials/codes.",
+        "Offboard vendors promptly: revoke access and collect issued keys/badges."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_004",
+      "control_description": "Insurance Coverage",
+      "question": "Is the family's insurance coverage sufficient to cover losses from a major cyber-attack or data breach?",
+      "yes_attribute": "Specific insurance policies are in place to mitigate the financial impact of cyber-attacks and identity theft.",
+      "no_attribute": "The family remains financially exposed to the high costs of data restoration, legal fees, and fraud following a cyber incident.",
+      "tier": "tier1",
+      "remediation": [
+        "Review cyber and identity-theft coverage with an insurance professional at least annually.",
+        "Confirm coverage limits match realistic loss scenarios (fraud, restoration costs, legal/PR).",
+        "Document policy numbers, contacts, and claim steps in the incident plan."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_005",
+      "control_description": "Asset Inventory",
+      "question": "Do we maintain an updated list of all computers, smart devices, and high-value data accounts?",
+      "yes_attribute": "A centralized asset inventory ensures all hardware and sensitive digital accounts are accounted for and managed.",
+      "no_attribute": "Incomplete asset tracking makes it impossible to fully secure the environment or identify missing/stolen hardware.",
+      "tier": "tier2",
+      "remediation": [
+        "Maintain an asset inventory for computers, phones, smart devices, critical accounts, and sensitive data stores.",
+        "Assign an owner per asset and track lifecycle (purchase, deployment, decommission).",
+        "Review and reconcile the inventory quarterly."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_006",
+      "control_description": "Travel Security",
+      "question": "Are there documented security procedures that must be followed when family members travel internationally or to high-risk areas?",
+      "yes_attribute": "Standardized travel security protocols protect the family's physical safety and digital privacy while abroad.",
+      "no_attribute": "International travel is conducted without formal security guidelines, increasing the risk of device theft or physical incidents.",
+      "tier": "tier2",
+      "remediation": [
+        "Document travel security procedures (device hygiene, communications plan, emergency contacts).",
+        "Use pre-travel briefings for high-risk destinations and require secure connectivity practices.",
+        "Review incidents/lessons learned after trips and update procedures."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_007",
+      "control_description": "Network Segregation",
+      "question": "Is the network designed to separate critical systems and sensitive data from general-use devices and guests?",
+      "yes_attribute": "Logical network separation prevents low-security devices (like guest phones) from accessing sensitive family data.",
+      "no_attribute": "A flat network architecture allows for lateral movement, meaning one compromised guest device could lead to a full data breach.",
+      "tier": "tier2",
+      "remediation": [
+        "Segment networks (guest, IoT, family/business) and restrict lateral movement between segments.",
+        "Use strong Wi‑Fi security (WPA2/WPA3), unique passwords, and disable insecure protocols.",
+        "Audit connected devices quarterly and remove unknown devices."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_008",
+      "control_description": "Termination Procedures",
+      "question": "Are all employment and termination agreements reviewed to cover security, confidentiality, and asset returns?",
+      "yes_attribute": "Legal and security clauses in staff agreements ensure confidentiality and the return of all household assets upon termination.",
+      "no_attribute": "Weak termination procedures may allow departed staff to retain sensitive information or physical access to the estate.",
+      "tier": "tier2",
+      "remediation": [
+        "Use standardized employment and termination templates that include confidentiality, access return, and device/key return.",
+        "Have legal/security review agreements annually or when major roles change.",
+        "Confirm separation steps are executed (account disablement, code rotation, asset return)."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_009",
+      "control_description": "Financial Controls",
+      "question": "Are there specific security steps and approvals required before making large online purchases or e-commerce transactions?",
+      "yes_attribute": "Multi-person approvals and fraud-resistant payment methods protect the family's wealth from unauthorized high-value transactions.",
+      "no_attribute": "Lack of financial verification steps leaves the household vulnerable to wire fraud and unauthorized large-scale purchases.",
+      "tier": "tier2",
+      "remediation": [
+        "Implement approval thresholds for large purchases (who approves, how verification is done).",
+        "Use fraud-resistant payment methods and enable transaction alerts.",
+        "Verify vendor legitimacy and shipping details out-of-band for high-value orders."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_010",
+      "control_description": "Independent Verification",
+      "question": "Do we schedule outside experts to perform security checks (like penetration tests or audits) on our external systems?",
+      "yes_attribute": "External security assessments provide objective proof that the household's defenses are effective against modern threats.",
+      "no_attribute": "Self-assessment alone may miss critical vulnerabilities that an expert third-party auditor would identify.",
+      "tier": "tier3",
+      "remediation": [
+        "Schedule independent security assessments on a recurring cadence (annual or semi-annual).",
+        "Define scope (external exposure, Wi‑Fi, smart-home, phishing) and success criteria up front.",
+        "Track findings to closure with owners and due dates."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_011",
+      "control_description": "Threat Modeling",
+      "question": "Has the security manager/consultant reviewed the unique threats (like targeted attacks) facing the family or residence this year?",
+      "yes_attribute": "A formal threat model identifies and prioritizes the specific risks unique to the family’s public profile and lifestyle.",
+      "no_attribute": "Security efforts are generalized rather than targeted, potentially ignoring the most likely or damaging threats to the family.",
+      "tier": "tier3",
+      "remediation": [
+        "Perform an annual threat modeling session covering targeted threats, insider risk, and cyber/physical overlaps.",
+        "Document top risks and map them to controls and owners.",
+        "Revisit the model after major changes (new staff, renovation, new systems)."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_012",
+      "control_description": "Recovery Validation",
+      "question": "Have the systems used to back up critical data been tested recently to ensure the data can actually be restored?",
+      "yes_attribute": "Regular restore testing guarantees that critical family data is not only backed up but fully recoverable.",
+      "no_attribute": "Backups are unverified, meaning the family may discover their data is unrecoverable only after a catastrophic failure occurs.",
+      "tier": "tier3",
+      "remediation": [
+        "Define which systems/data are 'critical' and ensure backups meet recovery objectives.",
+        "Test restores on a schedule and document proof of successful recovery.",
+        "Fix backup gaps immediately and retest after changes."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_013",
+      "control_description": "Audit Logging",
+      "question": "Are records (logs) of who accessed sensitive data being securely saved for at least one year?",
+      "yes_attribute": "Long-term, secure log retention provides the necessary evidence for forensic investigations following a security incident.",
+      "no_attribute": "Short-term or unsecured logs make it impossible to investigate historic breaches or identify long-term insider threats.",
+      "tier": "tier3",
+      "remediation": [
+        "Set log retention requirements for critical systems (e.g., 12 months) and verify storage capacity.",
+        "Protect logs from tampering (restricted access, backups, immutable storage if available).",
+        "Periodically validate that logs are being captured and can be retrieved when needed."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_014",
+      "control_description": "Policy Enforcement",
+      "question": "Is there a regular schedule to review all security policies and verify that staff are actually following them?",
+      "yes_attribute": "Active policy enforcement and regular spot checks ensure that security protocols are practiced, not just documented.",
+      "no_attribute": "Policies exist 'on paper' only, with no verification that household staff are actually adhering to the required security behaviors.",
+      "tier": "tier3",
+      "remediation": [
+        "Set a recurring schedule to review security policies (e.g., annually) and assign an owner.",
+        "Verify compliance with spot checks and follow up on gaps with training or process changes.",
+        "Version policies and document approvals/updates."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_015",
+      "control_description": "Physical Risk",
+      "question": "Is there a documented Safe Room protocol known to all household members in the event of a home invasion?",
+      "yes_attribute": "A practiced 'Safe Room' protocol ensures every household member knows exactly where to go and how to respond to a home invasion.",
+      "no_attribute": "The lack of an emergency sanctuary protocol could lead to panic and increased physical danger during a breach of the home.",
+      "tier": "tier1",
+      "remediation": [
+        "Document the risk/control expectation for 'Physical Risk' and assign an owner to review it on a regular cadence.",
+        "Maintain evidence (logs, inventories, policies, vendor docs) so the control can be verified quickly.",
+        "Reassess annually or after major changes (new staff, travel, renovation, new systems) and update the plan."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_016",
+      "control_description": "Digital Identity",
+      "question": "Do you utilize hardware-based MFA (e.g., YubiKeys) or MFA overall for all primary financial and administrative email accounts?",
+      "yes_attribute": "Critical identities are protected by physical hardware keys, providing the strongest possible defense against remote account takeovers.",
+      "no_attribute": "Reliance on password-only or SMS-based authentication leaves high-value accounts vulnerable to SIM swapping and phishing.",
+      "tier": "tier2",
+      "remediation": [
+        "Document the risk/control expectation for 'Digital Identity' and assign an owner to review it on a regular cadence.",
+        "Maintain evidence (logs, inventories, policies, vendor docs) so the control can be verified quickly.",
+        "Reassess annually or after major changes (new staff, travel, renovation, new systems) and update the plan."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_017",
+      "control_description": "Continuous Monitoring",
+      "question": "Do you receive automated, real-time alerts for any unauthorized changes to your credit report or high-value financial accounts?",
+      "yes_attribute": "Real-time monitoring of financial and credit data allows for the immediate detection and freezing of fraudulent activity.",
+      "no_attribute": "Without automated alerts, financial fraud or identity theft could go unnoticed until significant damage has already been done.",
+      "tier": "tier3",
+      "remediation": [
+        "Document the risk/control expectation for 'Continuous Monitoring' and assign an owner to review it on a regular cadence.",
+        "Maintain evidence (logs, inventories, policies, vendor docs) so the control can be verified quickly.",
+        "Reassess annually or after major changes (new staff, travel, renovation, new systems) and update the plan."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_018",
+      "control_description": "Supply Chain Risk",
+      "question": "Does the family maintain a Risk Registry that tracks the security posture of long-term third-party partners (Family Offices, Private Banks)?",
+      "yes_attribute": "The security of key partners (like banks and family offices) is actively tracked to ensure their weaknesses don't become the family's risks.",
+      "no_attribute": "The family implicitly trusts third-party partners without verifying their security posture, creating a blind spot in the overall risk profile.",
+      "tier": "tier3",
+      "remediation": [
+        "Document the risk/control expectation for 'Supply Chain Risk' and assign an owner to review it on a regular cadence.",
+        "Maintain evidence (logs, inventories, policies, vendor docs) so the control can be verified quickly.",
+        "Reassess annually or after major changes (new staff, travel, renovation, new systems) and update the plan."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_019",
+      "control_description": "Kill Switch Mitigation",
+      "question": "Has a risk assessment determined if power or fiber can be cut from the street without triggering an internal alarm?",
+      "yes_attribute": "Kill Switch Mitigation is fully implemented; a risk assessment determined if power or fiber can be cut from the street without triggering an internal alarm.",
+      "no_attribute": "Kill Switch Mitigation is not currently addressed; a risk assessment determined if power or fiber can be cut from the street without triggering an internal alarm remains a vulnerability.",
+      "tier": "tier1",
+      "remediation": [
+        "Perform a 'Red Team' test by simulating a utility cut to see if the internal alarm system switches to cellular/battery and alerts the family.",
+        "Install protective conduit (Sch 80 PVC or Steel) for all utility lines running from the street to the hub.",
+        "Bury utility lines at least 36 inches deep and cover with 'Caution' tape and/or concrete caps to prevent easy tampering."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_020",
+      "control_description": "Credential Accountability",
+      "question": "Do you maintain a real-time record of exactly how many contractors currently hold active physical keys or digital codes?",
+      "yes_attribute": "Credential Accountability is fully implemented; you maintain a real-time record of exactly how many contractors currently hold active physical keys or digital codes.",
+      "no_attribute": "Credential Accountability is not currently addressed; you maintain a real-time record of exactly how many contractors currently hold active physical keys or digital codes remains a vulnerability.",
+      "tier": "tier1",
+      "remediation": [
+        "Generate a weekly 'Access Report' from the smart lock system and compare it against the current list of active vendors.",
+        "Require all contractors to sign for physical keys and return them daily, or use expiring digital pins.",
+        "Immediate revoke access for any contractor or firm whose scope of work has concluded."
+      ]
+    },
+    {
+      "id": "RISK_MANAGEMENT_021",
+      "control_description": "Entrance Strategy",
+      "question": "Is there a gate or planned security checkpoint where the Private Road meets the public thoroughfare?",
+      "yes_attribute": "Entrance Strategy is fully implemented; there a gate or planned security checkpoint where the Private Road meets the public thoroughfare.",
+      "no_attribute": "Entrance Strategy is not currently addressed; there a gate or planned security checkpoint where the Private Road meets the public thoroughfare remains a vulnerability.",
+      "tier": "tier2",
+      "remediation": [
+        "Install a heavy-duty automated gate at the public thoroughfare junction with integrated intercom and camera.",
+        "Post 'Private Property' and 'Video Surveillance' signage clearly at the road entrance.",
+        "Implement a 'Dual Gate' system or a 'Holding Bay' if the road is long enough to vet visitors before they reach the house perimeter."
+      ]
+    }
+  ]
+}
