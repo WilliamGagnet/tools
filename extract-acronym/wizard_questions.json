@@ -1,6 +1,6 @@
 {
   "PEOPLE": [
-      {
+    {
       "id": "PEOPLE_001",
       "control_description": "Household Awareness",
       "question": "Are all household members (including children of awareness age) aware of how to lock/unlock all entry points?",
@@ -8,12 +8,12 @@
       "no_attribute": "Certain household members are unable to independently operate entry point locks, creating potential security gaps or egress issues.",
       "tier": "tier1",
       "remediation": [
-          "Define expectations for 'Household Awareness' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Conduct a physical walkthrough with all residents to demonstrate the operation of deadbolts, smart locks, and sliding door pins.",
+        "Verify that younger family members can successfully operate locks during an emergency egress scenario.",
+        "Place a visual 'Locked' vs 'Unlocked' indicator on complex hardware to ensure clear status at a glance."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_002",
       "control_description": "Visitor Protocol",
       "question": "Do you have a standard knock at the door policy (e.g., looking through a peephole/camera before opening)?",
@@ -21,12 +21,12 @@
       "no_attribute": "There is no standardized visitor verification protocol, leading to the risk of opening doors to unvetted individuals.",
       "tier": "tier1",
       "remediation": [
-          "Define expectations for 'Visitor Protocol' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Establish a 'No Blind Opening' rule requiring visual verification via peephole or smart doorbell before any door is unlocked.",
+        "Install a digital door viewer or smart camera at eye-level for shorter household members or children.",
+        "Instruct all residents to never open the door for unannounced or unexpected solicitors, regardless of their claims."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_003",
       "control_description": "Emergency Contact",
       "question": "Is there a list of emergency contacts (Police, Fire, Trusted Neighbor) easily accessible to everyone in the home?",
@@ -34,12 +34,12 @@
       "no_attribute": "Emergency contact information is not centrally located or easily accessible to all household members.",
       "tier": "tier1",
       "remediation": [
-          "Define expectations for 'Emergency Contact' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Post a physical emergency contact sheet on a central location like the refrigerator or a common area command center.",
+        "Program 'In Case of Emergency' (ICE) contacts into all household mobile devices and landline speed-dials.",
+        "Include a 'Trusted Neighbor' contact on the list who has a spare key and is aware of household occupancy."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_004",
       "control_description": "Key Control",
       "question": "Do you have a record of every person who has a physical key or digital code to the house?",
@@ -47,12 +47,12 @@
       "no_attribute": "There is no centralized record of who possesses physical keys or active digital access codes for the residence.",
       "tier": "tier1",
       "remediation": [
-          "Define expectations for 'Key Control' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Create a digital log listing all individuals with active access, including the date the key/code was issued.",
+        "Transition to unique user codes for smart locks to track individual entry/exit times rather than using a single master code.",
+        "Perform a 'Key Recall' or code wipe for any former staff, contractors, or previous residents who no longer require access."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_005",
       "control_description": "The Hidden Key Risk",
       "question": "Do you currently hide a physical key in a predictable location (under a mat, in a fake rock)?",
@@ -60,12 +60,12 @@
       "no_attribute": "Physical keys are hidden in predictable exterior locations, presenting a significant unauthorized entry risk.",
       "tier": "tier1",
       "remediation": [
-          "Define expectations for 'The Hidden Key Risk' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Remove all keys from 'fake rocks,' door frames, or under-mat locations immediately.",
+        "Install a high-security, code-based lockbox in a discreet, non-obvious location if physical key backup is mandatory.",
+        "Replace physical 'hidden keys' with a smart lock that offers a battery-backup jump-start or physical key override kept by a neighbor."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_006",
       "control_description": "Digital/Physical Crossover",
       "question": "Does everyone understand the risk of leaving a garage door opener in an unlocked car in the driveway?",
@@ -73,12 +73,12 @@
       "no_attribute": "There is a lack of awareness regarding the vulnerability of leaving garage door openers in unlocked vehicles.",
       "tier": "tier1",
       "remediation": [
-          "Define expectations for 'Digital/Physical Crossover' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Mandate that all vehicles parked outside the garage are locked and the garage remote is removed or hidden from view.",
+        "Switch to a smartphone-based garage controller to eliminate the need for physical visor remotes.",
+        "Audit the 'lock' feature on the garage wall console to disable remote signals during overnight hours or extended trips."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_007",
       "control_description": "Social Media Hygiene",
       "question": "Is there a shared understanding not to post real-time vacation photos or \"I’m home alone\" status updates?",
@@ -86,12 +86,12 @@
       "no_attribute": "Household members lack a unified understanding of the risks associated with posting real-time travel or occupancy status.",
       "tier": "tier2",
       "remediation": [
-          "Define expectations for 'Social Media Hygiene' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Establish a 'Post-Trip Only' rule for vacation photos to ensure location data is not shared while the home is vacant.",
+        "Review privacy settings on all household accounts to ensure 'Check-ins' and 'Live' locations are disabled.",
+        "Educate younger residents on the risks of 'Home Alone' posts or sharing photos that reveal identifiable house features/security tech."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_008",
       "control_description": "Service Provider Policy",
       "question": "Do you verify the ID of service workers (plumbers, delivery, etc.) before allowing entry?",
@@ -99,12 +99,12 @@
       "no_attribute": "Service workers are frequently admitted to the residence without formal identity or appointment verification.",
       "tier": "tier2",
       "remediation": [
-          "Define expectations for 'Service Provider Policy' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Require all service appointments to be confirmed via email/text with a technician name and photo prior to arrival.",
+        "Instruct residents to verify company badges through a window or camera before opening the primary door.",
+        "Escort all third-party contractors at all times while they are inside the residence or on the property."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_009",
       "control_description": "Neighbor Network",
       "question": "Do you have at least one neighbor who has been briefed on what suspicious activity looks like for your specific property?",
@@ -112,12 +112,12 @@
       "no_attribute": "The property lacks a localized community watch element, as no neighbors are aware of baseline activity patterns.",
       "tier": "tier2",
       "remediation": [
-          "Define expectations for 'Neighbor Network' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Identify a trusted neighbor and share 'normal' patterns (e.g., when the gardener usually arrives) so they can spot anomalies.",
+        "Exchange emergency contact information with neighbors to facilitate rapid reporting of observed suspicious behavior.",
+        "Provide the neighbor with a temporary guest code or key for emergency access and perimeter checks during long absences."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_010",
       "control_description": "Situational Awareness",
       "question": "Do household members check the perimeter/surroundings visually before exiting or entering the garage/front door?",
@@ -125,12 +125,12 @@
       "no_attribute": "There is no habitual practice of scanning the surroundings before entering or exiting the garage or front door.",
       "tier": "tier2",
       "remediation": [
-          "Define expectations for 'Situational Awareness' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Implement a 'Pause and Scan' habit: check camera feeds or windows before stepping outside or opening the garage.",
+        "Ensure garage doors are fully closed before exiting the vehicle and walking toward the house entry.",
+        "Improve lighting around 'blind spots' near entryways to make visual checks more effective during low-light hours."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_011",
       "control_description": "Domestic Staff Vetting",
       "question": "If you employ regular cleaners/landscapers, have they undergone a background check or were they hired via a vetted agency?",
@@ -138,12 +138,12 @@
       "no_attribute": "Domestic staff are employed without formal background checks or third-party agency vetting.",
       "tier": "tier2",
       "remediation": [
-          "Define expectations for 'Domestic Staff Vetting' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Request proof of background checks from any agency providing cleaning, landscaping, or childcare services.",
+        "Run an independent background check for any private staff hired directly rather than through an agency.",
+        "Maintain a file of government-issued IDs for all regular staff allowed unsupervised access to the property."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_012",
       "control_description": "The \"Vouching\" Rule",
       "question": "Is there a rule for children/teens regarding 'vouching' for friends? (e.g., No guests allowed when parents are out unless pre-approved).",
@@ -151,12 +151,12 @@
       "no_attribute": "There are no established rules regarding children or teens hosting guests without adult supervision or pre-approval.",
       "tier": "tier2",
       "remediation": [
-          "Define expectations for 'The \"Vouching\" Rule' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Establish a 'Primary Resident Present' rule that forbids guests from entering the home when the owner is away.",
+        "Define a pre-approval process for any guest not explicitly known to the household management.",
+        "Set alerts on smart locks or cameras to notify owners when the home is accessed by guests or teenagers."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_013",
       "control_description": "Drill Frequency",
       "question": "Does the household perform an Emergency Exit or Safe Room drill at least twice a year?",
@@ -164,12 +164,12 @@
       "no_attribute": "Emergency drills are not performed regularly, increasing the risk of panic or confusion during a real emergency.",
       "tier": "tier3",
       "remediation": [
-          "Define expectations for 'Drill Frequency' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Schedule semi-annual 'Active Intruder' and 'Fire' drills to ensure muscle memory for safe room entry and primary exits.",
+        "Test all emergency hardware (panic buttons, ladder releases, safe room locks) during each scheduled drill.",
+        "Document 'lessons learned' from each drill to improve hardware placement or communication protocols."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_014",
       "control_description": "Credential Audit",
       "question": "Do you change or rotate digital door codes/Wi-Fi passwords at least every 6 months?",
@@ -177,12 +177,12 @@
       "no_attribute": "Access codes and network passwords remain static for long periods, increasing the risk of unauthorized use.",
       "tier": "tier3",
       "remediation": [
-          "Define expectations for 'Credential Audit' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Set a calendar reminder for Jan 1 and July 1 to rotate all primary door codes and Wi-Fi SSID passwords.",
+        "Audit the 'Guest' Wi-Fi network and delete any old or unrecognized device profiles.",
+        "Update master passwords for security apps and camera management software every six months."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_015",
       "control_description": "Verification of Training",
       "question": "Can a child or guest demonstrate the correct use of the alarm system (including the Duress/Panic code) without assistance?",
@@ -190,12 +190,12 @@
       "no_attribute": "Certain household members or frequent guests cannot independently operate the alarm system or duress codes.",
       "tier": "tier3",
       "remediation": [
-          "Define expectations for 'Verification of Training' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Test each household member individually on their ability to arm/disarm the system and trigger a silent duress alarm.",
+        "Provide temporary guests with a simplified 'laminated card' or digital guest-key instructions that expire after their stay.",
+        "Verify that all users know the difference between a standard 'Cancel' and a 'Duress' code."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_016",
       "control_description": "Incident Post-Mortem",
       "question": "After a close call (e.g., a package theft or a solicitor being overly aggressive), is there a family discussion to adjust People protocols?",
@@ -203,12 +203,12 @@
       "no_attribute": "Minor security lapses or incidents are not reviewed as a group, missing critical opportunities for protocol improvement.",
       "tier": "tier3",
       "remediation": [
-          "Define expectations for 'Incident Post-Mortem' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Conduct a 'Tabletop Review' after any security anomaly to identify how the breach occurred and how to prevent recurrence.",
+        "Adjust physical controls (e.g., adding a package lockbox) or behavioral rules based on the specific incident details.",
+        "Share incident summaries with the 'Neighbor Network' if the threat appears to be localized to the street or area."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_017",
       "control_description": "Verification, metrics, and Red Teaming",
       "question": "Do you periodically 'audit' your own home (e.g., checking if the kids actually locked the back door after playing) and use the results to retrain the household?",
@@ -216,12 +216,12 @@
       "no_attribute": "Security habits are assumed to be followed but are not periodically verified through internal checks or retraining.",
       "tier": "tier3",
       "remediation": [
-          "Define expectations for 'Verification, metrics, and Red Teaming.' and assign who is responsible for enforcing it (family vs staff).",
-          "Train all relevant household members/staff with a short walkthrough and provide a simple one-page reference.",
-          "Review compliance periodically (spot-checks or quick drills) and update guidance after any incident."
+        "Perform unannounced 'Penetration Tests' by checking all exterior doors and windows at random intervals.",
+        "Review smart lock logs weekly to ensure doors are being locked consistently at the expected times.",
+        "Gamify security for younger residents by rewarding 'Security Wins' (e.g., identifying a door left unlocked)."
       ]
-      },
-      {
+    },
+    {
       "id": "PEOPLE_018",
       "control_description": "Path Safety",
       "question": "Are the paths between various property buildings well lit and actively monitored for both security and wildlife risks?",
@@ -237,9 +237,9 @@
     {
       "id": "PEOPLE_019",
       "control_description": "Guest/Staff Separation",
-      "question": "Do guests at various property locations have separate access to prevent unauthorized access to the main house\u2019s alarm and camera feeds?",
-      "yes_attribute": "Guest/Staff Separation is fully implemented; guests at other buildings have a separate security partition to prevent unauthorized access to the main house\u2019s alarm and camera feeds.",
-      "no_attribute": "Guest/Staff Separation is not currently addressed; guests at the other buildings have a separate security partition to prevent unauthorized access to the main house\u2019s alarm and camera feeds remains a vulnerability.",
+      "question": "Do guests at various property locations have separate access to prevent unauthorized access to the main house’s alarm and camera feeds?",
+      "yes_attribute": "Guest/Staff Separation is fully implemented; guests at other buildings have a separate security partition to prevent unauthorized access to the main house’s alarm and camera feeds.",
+      "no_attribute": "Guest/Staff Separation is not currently addressed; guests at the other buildings have a separate security partition to prevent unauthorized access to the main house’s alarm and camera feeds remains a vulnerability.",
       "tier": "tier2",
       "remediation": [
         "Configure the security system with 'Partitioning' to isolate location access codes from Main House controls.",
@@ -257,7 +257,7 @@
       "remediation": [
         "Create a high-resolution video 'site orientation' guide covering all entry points and utility hubs.",
         "Update the virtual walkthrough annually or after any significant landscaping or construction changes.",
-        "Maintain a digital map of the property's 'blind sides'\u2014areas with heavy forest cover\u2014and review patrol routes for these spots."
+        "Maintain a digital map of the property's 'blind sides'—areas with heavy forest cover—and review patrol routes for these spots."
       ]
     }
     ],
@@ -270,9 +270,9 @@
       "no_attribute": "Emergency contact information is fragmented or outdated, potentially delaying critical response actions during an incident.",
       "tier": "tier1",
       "remediation": [
-        "Create a one-page emergency call tree and store it in multiple accessible locations (printed + digital).",
-        "Include clear triggers for calling 911 vs internal contacts and key vendor numbers.",
-        "Review and update after any staff/contact change; test at least twice per year."
+        "Draft a single-page 'Emergency Response Sheet' featuring local dispatch numbers, utility shut-offs, and a tiered family call tree.",
+        "Laminate and mount the physical sheet in a high-traffic area (e.g., pantry or mudroom) and pin a digital version to the top of the family group chat.",
+        "Conduct a 'Communication Check' every six months to verify that all listed phone numbers and emergency services are still active."
       ]
     },
     {
@@ -283,9 +283,9 @@
       "no_attribute": "Smart devices are frequently deployed with factory-default credentials, leaving the home network vulnerable to automated attacks.",
       "tier": "tier1",
       "remediation": [
-        "Create a 'new smart device' checklist: change default password, enable MFA, update firmware, set least-privilege.",
-        "Disable unused features (remote access, voice purchases, guest pairing) unless needed.",
-        "Record device owner, login, and update schedule in the asset inventory."
+        "Enforce a 'Mandatory Reset' rule: no smart device is connected to the primary network until the factory admin password is replaced.",
+        "Verify that Multi-Factor Authentication (MFA) is enabled for the manufacturer account associated with the new device.",
+        "Label each device with its install date and ensure it is isolated to a guest or IoT-specific network partition."
       ]
     },
     {
@@ -296,9 +296,9 @@
       "no_attribute": "Access codes are changed or issued without centralized oversight or a record of who authorized the update.",
       "tier": "tier1",
       "remediation": [
-        "Assign a single owner (or two-person approval) for issuing and changing house/gate codes.",
-        "Document all code changes (what changed, who requested, who approved, effective date).",
-        "Rotate codes on a schedule and immediately after staff/vendor separation."
+        "Appoint a single 'Access Manager' (e.g., Head of Household or House Manager) as the sole individual authorized to issue new codes.",
+        "Maintain a secure, encrypted log of all active codes, noting who they were issued to and their expiration date.",
+        "Immediately purge and reset 'temporary' contractor codes once their specific project or work window has closed."
       ]
     },
     {
@@ -309,9 +309,9 @@
       "no_attribute": "Technology updates are performed sporadically, and security warnings are often left unaddressed for extended periods.",
       "tier": "tier1",
       "remediation": [
-        "Set a patching cadence (e.g., weekly checks, monthly full update) for computers and smart-home systems.",
-        "Enable automatic updates where feasible and track devices that cannot auto-update.",
-        "Treat security warnings as incidents: assign an owner and due date to remediate."
+        "Enable 'Auto-Update' on all smart home hubs, cameras, and personal computers where the feature is available.",
+        "Perform a monthly manual check for devices that do not support auto-updates, such as network routers and older IoT sensors.",
+        "Document a 'Critical Patch' protocol: any device receiving a high-severity security alert must be updated or taken offline within 24 hours."
       ]
     },
     {
@@ -322,9 +322,9 @@
       "no_attribute": "Sensitive physical and digital files are kept indefinitely or disposed of without proper shredding or digital wiping.",
       "tier": "tier1",
       "remediation": [
-        "Define retention rules for sensitive files (what to keep, where, and for how long).",
-        "Implement secure disposal for paper (shred) and digital (wipe/crypto-erase) per asset type.",
-        "Review stored sensitive data quarterly and remove what is no longer needed."
+        "Implement a 'Shred-All' policy for physical mail and documents containing names, addresses, or financial data.",
+        "Establish a digital retention schedule (e.g., delete tax records after 7 years, scrub security footage after 30 days).",
+        "Utilize a secure-wipe utility before disposing of or donating any old smartphone, tablet, or hard drive."
       ]
     },
     {
@@ -335,9 +335,9 @@
       "no_attribute": "The household lacks a formal incident response plan, leading to uncoordinated reactions during a security breach.",
       "tier": "tier2",
       "remediation": [
-        "Write a short incident response playbook (detect → contain → recover → notify) with roles and contacts.",
-        "Run a tabletop exercise (30 minutes) at least annually with staff/family.",
-        "Keep an incident log template to record what happened and actions taken."
+        "Create a 'Security Playbook' with 3-step responses for common threats (e.g., physical breach, cyber account takeover, fire).",
+        "Assign specific roles to each household member (e.g., Who calls 911 vs. Who gathers everyone in the safe room).",
+        "Keep a hard copy of the playbook in a secure, fireproof location alongside other vital estate documents."
       ]
     },
     {
@@ -348,9 +348,9 @@
       "no_attribute": "Vendors are granted access without formal vetting, and their permissions often remain active long after their work is finished.",
       "tier": "tier2",
       "remediation": [
-        "Create onboarding/offboarding steps for vendors: vetting, scope, access issued, and access removal.",
-        "Use least-privilege access and time-box vendor access where possible.",
-        "Require confirmation that access was removed at the end of work."
+        "Require all long-term vendors to sign a Non-Disclosure Agreement (NDA) and provide proof of insurance before work begins.",
+        "Issue unique, time-restricted digital access codes for vendors that automatically expire at the end of the scheduled workday.",
+        "Perform a monthly audit of the vendor list to remove access for any company or individual not actively under contract."
       ]
     },
     {
@@ -361,9 +361,9 @@
       "no_attribute": "New systems are added to the network without a standardized configuration check, leading to inconsistent security postures.",
       "tier": "tier2",
       "remediation": [
-        "Create a secure build checklist for routers/firewalls/computers (admin password, MFA, updates, logging).",
-        "Document baseline settings and store configurations securely.",
-        "Require the checklist to be completed before any new device is placed into service."
+        "Develop a 'Standard Secure Build' checklist: Change SSID, disable WPS, enable firewall, and set up administrative logging.",
+        "Verify that all new hardware has its firmware updated to the latest version before it is connected to the home network.",
+        "Maintain a folder of 'Baseline Configurations' to ensure replacement devices can be set up identically to secure standards."
       ]
     },
     {
@@ -374,9 +374,9 @@
       "no_attribute": "Technical support and admin staff use high-privilege accounts for daily tasks, increasing the risk of accidental or malicious damage.",
       "tier": "tier2",
       "remediation": [
-        "Create separate admin accounts for IT/consultants; use standard accounts for daily work.",
-        "Require MFA for privileged accounts and restrict admin logins to necessary devices/networks.",
-        "Review privileged access quarterly and remove unused accounts."
+        "Create secondary 'Admin-Only' accounts for technical management that are never used for general web browsing or email.",
+        "Strictly limit the number of 'Full Administrator' profiles to only the primary house manager and one trusted IT lead.",
+        "Enable 'Just-In-Time' access where admin privileges are only granted during active maintenance windows."
       ]
     },
     {
@@ -387,9 +387,9 @@
       "no_attribute": "User permissions are rarely audited, resulting in 'privilege creep' and active access for individuals no longer associated with the home.",
       "tier": "tier2",
       "remediation": [
-        "Perform a quarterly access review for key systems (email, cloud storage, cameras, access control).",
-        "Remove access for departed staff/vendors immediately and verify removal was successful.",
-        "Document the review and keep evidence of changes made."
+        "Conduct a formal 'Access Census' every 90 days, reviewing every person who has a login to the Wi-Fi, cameras, or cloud storage.",
+        "Remove 'Ghost Accounts'—profiles belonging to former guests, contractors, or staff members—immediately during the audit.",
+        "Verify that each user’s level of access (e.g., View Only vs. Admin) is still appropriate for their current role."
       ]
     },
     {
@@ -400,9 +400,9 @@
       "no_attribute": "Backups are assumed to be working but are not periodically tested, creating a high risk of total data loss during a failure.",
       "tier": "tier3",
       "remediation": [
-        "Define backup scope (what data/systems), frequency, and retention (e.g., 3-2-1).",
-        "Test restores on a schedule (monthly/quarterly) and document results.",
-        "Fix failed backups immediately and alert responsible staff."
+        "Execute a 'Full Recovery Test' quarterly by attempting to restore a random selection of sensitive files from the cloud to a local drive.",
+        "Follow the 3-2-1 rule: 3 copies of data, on 2 different media types, with 1 copy stored in a separate physical location (Off-site).",
+        "Check backup success logs every Monday morning to identify and resolve any failed sync events immediately."
       ]
     },
     {
@@ -413,9 +413,9 @@
       "no_attribute": "Logging is disabled or inconsistent across devices, and inaccurate system clocks make existing records difficult to use in an investigation.",
       "tier": "tier3",
       "remediation": [
-        "Enable logging on critical systems (routers, cameras, access control, key accounts) and centralize where possible.",
-        "Ensure all systems use correct time sync (NTP) to make logs usable.",
-        "Review logs/alerts on a schedule or route them to a managed service."
+        "Sync all security hardware to a reliable Network Time Protocol (NTP) server to ensure timestamps match across all logs.",
+        "Enable 'Audit Logging' for sensitive cloud folders and email accounts to track who viewed or downloaded specific files.",
+        "Set camera systems to retain motion-event logs and low-res thumbnails for at least 60 days."
       ]
     },
     {
@@ -426,9 +426,9 @@
       "no_attribute": "Users have full administrative rights to install any software, significantly increasing the risk of malware and unmanaged apps.",
       "tier": "tier3",
       "remediation": [
-        "Enable application allowlisting or restrict installs to approved software via admin controls.",
-        "Remove local admin rights from daily user accounts where feasible.",
-        "Review installed software quarterly and remove unauthorized applications."
+        "Use 'Parental Controls' or MDM software to prevent the installation of any app that hasn't been pre-vetted by the network admin.",
+        "Establish a 'Software Catalog' of approved tools (e.g., specific browsers, VPNs, and productivity suites) for household use.",
+        "Regularly run an inventory scan on all laptops to identify and remove 'shadow IT' or unapproved browser extensions."
       ]
     },
     {
@@ -439,9 +439,9 @@
       "no_attribute": "Hardware and software are purchased and connected to the home network ad-hoc, without security review or approval.",
       "tier": "tier3",
       "remediation": [
-        "Establish an approval step for new hardware/software purchases (who approves, criteria, and documentation).",
-        "Maintain an 'approved tools' list and restrict installs to that list.",
-        "Review exceptions and document compensating controls."
+        "Require a 'Security Review' for any new IoT device (e.g., smart fridges, new cameras) before it is purchased.",
+        "Reject any software or hardware that does not support modern encryption standards or Multi-Factor Authentication.",
+        "Maintain a 'Do Not Buy' list for brands or manufacturers with known unpatched vulnerabilities or poor privacy track records."
       ]
     },
     {
@@ -452,9 +452,9 @@
       "no_attribute": "New staff and guests are introduced to the home without a structured security orientation, leading to accidental protocol breaches.",
       "tier": "tier1",
       "remediation": [
-        "Document a lightweight process/checklist for 'Onboarding' (owner, steps, and when it must be performed).",
-        "Make it easy to follow: templates, logs, and a recurring schedule (calendar reminder) for reviews.",
-        "Test the process occasionally (tabletop or spot-check), and update it when systems/staff change."
+        "Create a 'Welcome Security Packet' that explains the visitor policy, Wi-Fi usage, and entry/exit procedures.",
+        "Walk new staff through the property to identify 'Authorized Only' zones where they are not permitted to enter without an escort.",
+        "Require a signed acknowledgment of the household security rules before issuing any physical keys or digital credentials."
       ]
     },
     {
@@ -465,9 +465,9 @@
       "no_attribute": "Emergency procedures are never practiced, increasing the likelihood of failure during a high-stress security event.",
       "tier": "tier2",
       "remediation": [
-        "Document a lightweight process/checklist for 'Drills/ Exercises' (owner, steps, and when it must be performed).",
-        "Make it easy to follow: templates, logs, and a recurring schedule (calendar reminder) for reviews.",
-        "Test the process occasionally (tabletop or spot-check), and update it when systems/staff change."
+        "Host an annual 'Tabletop Sunday' where the family and staff discuss a hypothetical scenario (e.g., 'What if the power and cell towers go out?').",
+        "Physically call each number on the emergency call tree during the drill to confirm they are still the correct points of contact.",
+        "Update the response plan based on the results—such as finding a faster way to alert neighbors or a better backup meeting spot."
       ]
     },
     {
@@ -478,9 +478,9 @@
       "no_attribute": "Security lapses and technical failures are resolved without reviewing or updating the underlying processes to prevent recurrence.",
       "tier": "tier3",
       "remediation": [
-        "Document a lightweight process/checklist for 'Continuous Improvement' (owner, steps, and when it must be performed).",
-        "Make it easy to follow: templates, logs, and a recurring schedule (calendar reminder) for reviews.",
-        "Test the process occasionally (tabletop or spot-check), and update it when systems/staff change."
+        "Maintain a 'Security Logbook' to track minor failures, such as a gate that didn't latch or a camera that went offline.",
+        "Hold a 'Lessons Learned' meeting within 48 hours of any minor security lapse to identify the root cause.",
+        "Modify the daily staff checklist to include specific checks for any vulnerabilities discovered during the review process."
       ]
     },
     {
@@ -491,9 +491,9 @@
       "no_attribute": "Security controls are never externally validated, leaving potential blind spots and weaknesses undiscovered.",
       "tier": "tier3",
       "remediation": [
-        "Document a lightweight process/checklist for 'Compliance/ Audit' (owner, steps, and when it must be performed).",
-        "Make it easy to follow: templates, logs, and a recurring schedule (calendar reminder) for reviews.",
-        "Test the process occasionally (tabletop or spot-check), and update it when systems/staff change."
+        "Contract an external security firm to perform a 'Physical Penetration Test' (e.g., trying to gain access without a key).",
+        "Invite a network specialist to run a vulnerability scan on the home Wi-Fi and IoT systems to find hidden weaknesses.",
+        "Review the findings of the third-party audit and set a 30-day deadline to remediate any 'High' or 'Critical' risks found."
       ]
     },
     {
@@ -545,9 +545,9 @@
       "no_attribute": "The network lacks segmentation, allowing potentially insecure IoT devices or guest hardware to interact with private systems.",
       "tier": "tier1",
       "remediation": [
-        "Standardize the configuration for 'Network Segmentation (Guest Wi-Fi)' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Configure a Virtual LAN (VLAN) or a dedicated 'Guest Network' on the router that forbids access to the primary local network.",
+        "Move all 'Smart' appliances, cameras, and IoT sensors to the isolated guest/IoT band to prevent lateral movement from a compromised device.",
+        "Disable 'SSID Broadcasting' for the IoT-specific network to hide it from casual view by passersby or visitors."
       ]
     },
     {
@@ -558,9 +558,9 @@
       "no_attribute": "Devices are running outdated firmware, leaving the household vulnerable to known exploits and security flaws.",
       "tier": "tier1",
       "remediation": [
-        "Standardize the configuration for 'Update Management' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Log into the administrative console for all routers and IP cameras to toggle 'Automatic Firmware Updates' to ON.",
+        "Schedule a monthly 'Tech Sweep' to manually check devices that do not support auto-updates (e.g., smart switches or older hubs).",
+        "Decommission or replace any networked device that has reached 'End of Life' (EOL) and no longer receives security patches from the manufacturer."
       ]
     },
     {
@@ -571,9 +571,9 @@
       "no_attribute": "Factory-default credentials remain in use on some devices, making them easy targets for automated intrusion tools.",
       "tier": "tier1",
       "remediation": [
-        "Standardize the configuration for 'Unique Credentials' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Identify every device on the network and replace default 'admin/admin' or 'guest/password' logins with high-entropy passwords.",
+        "Update the 'Administrator' username where possible (e.g., change 'admin' to a unique name) to mitigate brute-force attacks.",
+        "Reset all smart home hubs to factory settings if the current credentials are unknown or were set by a previous owner/contractor."
       ]
     },
     {
@@ -584,9 +584,9 @@
       "no_attribute": "Family computing devices lack consistent endpoint protection, increasing the risk of virus or ransomware infections.",
       "tier": "tier1",
       "remediation": [
-        "Standardize the configuration for 'Endpoint Protection' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Install a reputable endpoint protection suite (e.g., Bitdefender, Malwarebytes) on all Windows and macOS devices in the house.",
+        "Verify that the 'Real-Time Scanning' and 'Web Protection' modules are active and set to update definitions daily.",
+        "Ensure all tablets and mobile devices use a verified mobile security agent that scans for malicious apps and phishing links."
       ]
     },
     {
@@ -597,9 +597,9 @@
       "no_attribute": "The household lacks a formal list of authorized devices, making it difficult to detect 'shadow' or rogue devices.",
       "tier": "tier2",
       "remediation": [
-        "Standardize the configuration for 'Device Inventory (Fingerprinting)' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Use a network scanning tool (like Fing or a built-in router utility) to export a list of all current MAC addresses on the network.",
+        "Label each MAC address with the specific device name and owner (e.g., 'Kitchen iPad - Mom') in the router's management console.",
+        "Enable 'New Device Alerts' on the router to receive a notification whenever an unrecognized MAC address attempts to join."
       ]
     },
     {
@@ -610,9 +610,9 @@
       "no_attribute": "Weak encryption or unencrypted traffic allows for potential interception of private communications or camera feeds.",
       "tier": "tier2",
       "remediation": [
-        "Standardize the configuration for 'Encryption Standards' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Upgrade the router security protocol to WPA3-SAE; if legacy devices are present, use 'WPA3/WPA2-Mixed' as a minimum.",
+        "Verify in the security camera settings that all video streams are transmitted via HTTPS/SSL or a proprietary encrypted tunnel.",
+        "Disable older, vulnerable protocols like WEP or WPA (Version 1) and turn off WPS (Wi-Fi Protected Setup) to prevent PIN-cracking attacks."
       ]
     },
     {
@@ -623,9 +623,9 @@
       "no_attribute": "Active, unsecured network ports are available in public or guest areas, presenting a risk of unauthorized physical connection.",
       "tier": "tier2",
       "remediation": [
-        "Standardize the configuration for 'Hardware Hardening' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Access the network switch or router admin panel to manually 'Shut Down' any Ethernet ports not currently in use.",
+        "Unplug any 'live' wall jacks in guest rooms or exterior-facing rooms that do not require immediate wired connectivity.",
+        "Place a physical port lock or tamper-evident seal on critical network interfaces located in communal areas."
       ]
     },
     {
@@ -636,9 +636,9 @@
       "no_attribute": "Credentials are managed insecurely (e.g., via paper, simple files, or shared texts), leading to poor password hygiene.",
       "tier": "tier2",
       "remediation": [
-        "Standardize the configuration for 'Credential Vaulting' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Migrate all household logins from browser-saved passwords and paper notes into a dedicated, encrypted Password Manager.",
+        "Utilize the 'Shared Vault' or 'Family Plan' feature to securely distribute Wi-Fi and streaming passwords to residents without using text/email.",
+        "Set up an 'Emergency Access' contact within the password manager to ensure the primary owner's credentials can be recovered by a trusted person if needed."
       ]
     },
     {
@@ -649,9 +649,9 @@
       "no_attribute": "The network has no visibility into behavioral anomalies, meaning a compromised IoT device could go undetected for months.",
       "tier": "tier3",
       "remediation": [
-        "Standardize the configuration for 'Behavioral Anomaly Detection' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Enable 'Intrusion Prevention System' (IPS) or 'Threat Protection' features on the primary router/firewall.",
+        "Configure geo-blocking to automatically alert or drop traffic originating from or destined for high-risk countries where the household has no business.",
+        "Set up data-usage quotas for IoT devices; a smart light bulb sending 1GB of data should trigger an immediate admin alert."
       ]
     },
     {
@@ -662,9 +662,9 @@
       "no_attribute": "System logs are collected but never reviewed, leaving no way to proactively identify security incidents.",
       "tier": "tier3",
       "remediation": [
-        "Standardize the configuration for 'Automated Log Analysis' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Subscribe to a managed home security monitoring service that ingests and analyzes router logs for brute-force attacks.",
+        "Set up email or push notification triggers for 'Critical' events, such as a router configuration change or a failed admin login.",
+        "Integrate household logs into a lightweight SIEM (Security Information and Event Management) tool for centralized visibility."
       ]
     },
     {
@@ -675,9 +675,9 @@
       "no_attribute": "Vulnerabilities remain undiscovered until an incident occurs because no proactive scanning is performed.",
       "tier": "tier3",
       "remediation": [
-        "Standardize the configuration for 'Vulnerability Scanning' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Deploy an internal network scanner (e.g., Nessus Essentials or a security appliance like Firewalla) to identify known CVEs on home devices.",
+        "Run a 'Port Scan' to ensure no devices are accidentally exposing sensitive services (like RDP or Telnet) to the local network or internet.",
+        "Generate a 'Risk Report' every 90 days and prioritize patching any device labeled with a 'High' or 'Critical' vulnerability."
       ]
     },
     {
@@ -688,9 +688,9 @@
       "no_attribute": "A single point of failure (power or ISP) can disable all household security and communication systems.",
       "tier": "tier3",
       "remediation": [
-        "Standardize the configuration for 'Redundancy & Failover' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Install an Uninterruptible Power Supply (UPS) for the primary router, modem, and security camera NVR.",
+        "Configure a cellular failover (LTE/5G) modem that automatically takes over the internet connection if the primary fiber/cable line is cut.",
+        "Test the failover once per quarter by manually disconnecting the primary ISP line to ensure the transition is seamless."
       ]
     },
     {
@@ -701,9 +701,9 @@
       "no_attribute": "Exposed network cables provide an easy avenue for an intruder to bypass external cameras and gain network access.",
       "tier": "tier1",
       "remediation": [
-        "Standardize the configuration for 'Physical Ports' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Encase all exterior network cabling in rigid metal conduit to prevent cutting or tampering.",
+        "Ensure outdoor IP cameras are mounted such that the cable exit is hidden behind the mounting bracket or within the wall.",
+        "Configure the network switch to use 'MAC Filtering' or 'Port Security' that disables the port if a non-camera device is plugged in."
       ]
     },
     {
@@ -714,9 +714,9 @@
       "no_attribute": "Remote access relies on simple passwords or weak MFA, leaving the home systems vulnerable to remote takeover.",
       "tier": "tier2",
       "remediation": [
-        "Standardize the configuration for 'Remote Access' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Disable all 'Port Forwarding' on the router and replace it with a secure VPN (e.g., WireGuard or Tailscale) for remote access.",
+        "Require a physical security key (e.g., YubiKey) for logins to the primary security app and home management server.",
+        "Set an 'Impossible Travel' alert that notifies the owner if a remote login occurs from a geographic location far from their current mobile GPS."
       ]
     },
     {
@@ -727,9 +727,9 @@
       "no_attribute": "The household is unaware of new vulnerabilities affecting their specific equipment until after a patch is widely released.",
       "tier": "tier3",
       "remediation": [
-        "Standardize the configuration for 'Threat Intelligence' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Sign up for manufacturer-specific security bulletins (e.g., Apple, Ubiquiti, Synology) for every brand in the technology stack.",
+        "Follow the CISA (Cybersecurity & Infrastructure Security Agency) 'Known Exploited Vulnerabilities' catalog for critical home alerts.",
+        "Utilize a service like 'Have I Been Pwned' for the household's primary email domains to detect credential leaks early."
       ]
     },
     {
@@ -740,9 +740,9 @@
       "no_attribute": "Default 'Smart' settings remain active, potentially allowing vendors to collect sensitive audio or location data from within the home.",
       "tier": "tier3",
       "remediation": [
-        "Standardize the configuration for 'Privacy Harvesting' across all devices/accounts (baseline settings and required features).",
-        "Enable protective features where available (MFA, encryption, updates, filtering) and restrict admin access.",
-        "Audit quarterly: verify settings are still enabled, remove stale accounts/devices, and remediate any gaps."
+        "Audit 'Smart TV' settings to disable 'Automated Content Recognition' (ACR) and microphone-based voice recording.",
+        "Review mobile app permissions for IoT controllers, revoking 'Always On' location and contact-list access where not functional.",
+        "Install a network-wide DNS filter (like Pi-hole or NextDNS) to block known telemetry and tracking domains used by smart appliances."
       ]
     },
     {
@@ -794,9 +794,9 @@
       "no_attribute": "Standard glass windows are unprotected, providing a high-risk point of rapid entry for intruders.",
       "tier": "tier1",
       "remediation": [
-        "Install security film or upgrade to laminated/shatter-resistant glass on vulnerable windows.",
-        "Ensure window locks function and are used; add secondary locks where appropriate.",
-        "Improve exterior lighting and camera coverage around ground-level windows."
+        "Apply 8-mil or thicker security film to all ground-floor glass and basement windows to prevent 'smash and grab' entries.",
+        "Install secondary window locks or security pins that prevent the sash from being lifted or slid open from the outside.",
+        "Replace high-risk glass panes with laminated safety glass that remains intact even after multiple strikes."
       ]
     },
     {
@@ -807,9 +807,9 @@
       "no_attribute": "Overgrown foliage or damaged gates provide hiding spots and easy bypass opportunities for unauthorized individuals.",
       "tier": "tier1",
       "remediation": [
-        "Trim landscaping near doors/windows to eliminate concealment and improve visibility from the street.",
-        "Repair/secure exterior gates, latches, and fences; keep gates closed when not in active use.",
-        "Add motion lighting and consider signage or visible cameras for deterrence."
+        "Apply the '3-foot/7-foot' rule: trim shrubs to below 3 feet and tree canopies to above 7 feet to maintain clear sightlines.",
+        "Install self-closing and self-latching hardware on all perimeter gates to ensure they do not accidentally remain ajar.",
+        "Plant defensive landscaping, such as thorny bushes (e.g., holly or roses), beneath vulnerable first-floor windows."
       ]
     },
     {
@@ -820,9 +820,9 @@
       "no_attribute": "Fire and CO detection systems are not regularly tested, creating a significant risk of failure during a life-safety event.",
       "tier": "tier1",
       "remediation": [
-        "Test smoke/CO alarms monthly and replace batteries as needed; document tests in a simple log.",
-        "Replace devices per manufacturer guidance (often 7–10 years) and ensure coverage in all required areas.",
-        "If present, test monitoring/central station notifications during a scheduled window."
+        "Perform a 'Push-to-Test' check on every smoke and CO detector on the first Saturday of each month.",
+        "Replace all 9V backup batteries annually, regardless of current charge level, to prevent low-battery chirps during emergencies.",
+        "Vacuum or blow out detector sensors with compressed air every six months to prevent dust buildup from causing false alarms."
       ]
     },
     {
@@ -833,9 +833,9 @@
       "no_attribute": "Utility controls are exposed or unsecured, allowing an intruder to disable power, water, or gas from the exterior.",
       "tier": "tier1",
       "remediation": [
-        "Confirm shut-offs are labeled and accessible to authorized staff for emergencies.",
-        "Secure access panels/areas (lock covers, fenced utility area) to prevent tampering.",
-        "Document the location and operation steps; review annually with staff."
+        "Install lockable covers over external electrical disconnects and circuit breaker panels to prevent unauthorized power cuts.",
+        "Enclose external gas meters and water mains in a ventilated, locked cage that is accessible via an emergency 'break-glass' key box.",
+        "Place a tamper-evident seal on main shut-off valves so staff can easily spot if a utility has been interfered with."
       ]
     },
     {
@@ -846,9 +846,9 @@
       "no_attribute": "Firearms or dangerous substances are stored insecurely or with ammunition, presenting a high risk of accidental or unauthorized use.",
       "tier": "tier1",
       "remediation": [
-        "Store firearms unloaded in a locked safe/cabinet; store ammunition separately in a locked container.",
-        "Limit safe access to authorized adults and keep combinations/keys secured.",
-        "Document a quick monthly check to confirm storage practices are followed."
+        "Secure all firearms in a California DOJ-approved safe that is bolted to the floor or wall studs.",
+        "Store ammunition in a separate locked locker or room, away from the primary firearm storage area.",
+        "Utilize trigger locks or cable locks as a secondary layer of defense even when firearms are stored inside a safe."
       ]
     },
     {
@@ -859,9 +859,9 @@
       "no_attribute": "The property relies on traditional keys, which are easily duplicated and cannot be easily tracked or revoked.",
       "tier": "tier2",
       "remediation": [
-        "Standardize on electronic access where appropriate (codes/cards) and avoid uncontrolled key copying.",
-        "Enable individual codes per person and disable codes immediately when access is no longer needed.",
-        "Keep a written procedure for issuing, changing, and revoking access."
+        "Replace traditional deadbolts on primary entry points with smart locks that support individual user codes and audit logs.",
+        "Install an electronic gate strike or magnetic lock that can be integrated with the home's primary security system.",
+        "Disable the 'Manual Override' key cylinder if possible, or use a high-security restricted keyway (e.g., Medeco or Abloy) that cannot be duplicated at a local hardware store."
       ]
     },
     {
@@ -872,9 +872,9 @@
       "no_attribute": "There is no formal record of how many keys or codes exist or who currently possesses them.",
       "tier": "tier2",
       "remediation": [
-        "Create an inventory of all keys/codes/fobs with owner, issued date, and access scope.",
-        "Require check-in/check-out for spares and immediately report/replace lost keys or compromised codes.",
-        "Review the inventory quarterly and reconcile against actual keys/fobs."
+        "Create a master 'Access Ledger' documenting the serial number of every physical key and the name of the individual it was issued to.",
+        "Use 'Do Not Duplicate' stamped keys for all secondary locks and require staff to return keys immediately upon end of contract.",
+        "Conduct a 'Key Audit' twice a year where every staff member must physically produce their issued keys for verification."
       ]
     },
     {
@@ -885,9 +885,9 @@
       "no_attribute": "Network equipment is exposed in unlocked areas, allowing an intruder to bypass digital security via physical access.",
       "tier": "tier2",
       "remediation": [
-        "Move network/server gear into a lockable closet/cabinet; restrict keys/codes to authorized personnel.",
-        "Label and cable-manage equipment to reduce accidental unplugging/tampering.",
-        "Add a tamper-evident seal or basic door contact sensor if risk warrants."
+        "Relocate all network switches, routers, and camera NVRs into a dedicated, ventilated IT closet with a self-locking door.",
+        "If equipment must be in a shared space, utilize a wall-mounted server rack with a locking glass or metal door.",
+        "Enable 'Port Security' on switches to automatically disable a network port if a device is unplugged or a new MAC address is detected."
       ]
     },
     {
@@ -898,9 +898,9 @@
       "no_attribute": "Safe combinations are shared widely or stored in obvious locations, compromising the security of high-value assets.",
       "tier": "tier2",
       "remediation": [
-        "Limit safe/vault combination/key knowledge to authorized family members; avoid sharing with staff.",
-        "Store backup keys/combinations securely (sealed envelope in locked location or managed by attorney/security provider).",
-        "Rotate combinations after personnel changes or suspected exposure."
+        "Change safe combinations immediately following the departure of any staff member or guest who had access.",
+        "Avoid using birthdays or easily guessed sequences; utilize a random 6-digit code or a biometric (fingerprint) primary lock.",
+        "Never write the combination on a nearby surface; store it only in an encrypted password manager or a sealed envelope in an off-site safety deposit box."
       ]
     },
     {
@@ -911,9 +911,9 @@
       "no_attribute": "Sensitive documents are discarded intact, exposing the household to identity theft or financial fraud.",
       "tier": "tier2",
       "remediation": [
-        "Provide a cross-cut shredder or contracted shredding bin for mail/invoices/PII.",
-        "Define what must be shredded (financial docs, medical, IDs, passwords) and train staff.",
-        "Do periodic disposal checks to ensure sensitive paper is not going into trash/recycling unshredded."
+        "Standardize on a P-4 level cross-cut or micro-cut shredder for all household offices.",
+        "Place a 'To Be Shredded' bin in the mail-sorting area to ensure junk mail and bank statements are not accidentally trashed.",
+        "Contract a professional shredding service for high-volume purges (e.g., annual tax cleaning) to ensure certificates of destruction are provided."
       ]
     },
     {
@@ -924,9 +924,9 @@
       "no_attribute": "Cameras record data but the footage is never reviewed unless an incident is already known to have occurred.",
       "tier": "tier3",
       "remediation": [
-        "Assign responsibility for daily camera review or configure alerts for key events (motion, door contacts).",
-        "Ensure footage retention is sufficient (e.g., 14–30 days) and time settings are correct.",
-        "Test camera views/lighting quarterly and fix blind spots or failed cameras promptly."
+        "Set up 'Smart Motion Alerts' on smartphones to notify residents of any human or vehicle activity during overnight hours.",
+        "Configure a dedicated monitor in the house manager's office or kitchen to display a live 'Grid View' of all perimeter cameras.",
+        "Review the 'Events Log' for 5 minutes each morning to check for suspicious loitering or perimeter testing that occurred while the household was asleep."
       ]
     },
     {
@@ -937,9 +937,9 @@
       "no_attribute": "Vendors and visitors enter and leave the property without any formal record of their presence or duration of stay.",
       "tier": "tier3",
       "remediation": [
-        "Implement a visitor/vendor log (paper logbook or simple digital form) capturing name, company, purpose, and timestamps.",
-        "Require identity verification for first-time vendors (ID + scheduled work confirmation).",
-        "Ensure visitors are escorted or limited to approved areas while on site."
+        "Use a digital visitor management app or a structured physical logbook at the primary gate/door for all check-ins.",
+        "Require all contractors to wear a 'Visitor' badge while on-site to easily distinguish authorized workers from trespassers.",
+        "Cross-reference the visitor log with security camera timestamps once a week to ensure all 'departures' were actually completed."
       ]
     },
     {
@@ -950,9 +950,9 @@
       "no_attribute": "The alarm system has not been tested recently, leaving potential sensor or communication failures undiscovered.",
       "tier": "tier3",
       "remediation": [
-        "Schedule monthly alarm tests (including panic buttons) and record results.",
-        "Verify monitoring contacts and call lists are current; update after staff changes.",
-        "Fix any sensor trouble/battery warnings within a defined SLA (e.g., 72 hours)."
+        "Place the alarm system in 'Test Mode' and trigger a different door/window sensor each month to ensure the signal reaches the monitoring center.",
+        "Test 'Duress' or 'Panic' buttons from various rooms to ensure the silent alarm correctly notifies law enforcement.",
+        "Verify that the alarm’s cellular and battery backups are functional by temporarily disconnecting the main power and internet during the test."
       ]
     },
     {
@@ -963,9 +963,9 @@
       "no_attribute": "Exterior lighting is inadequate or non-functional, providing cover for unauthorized movement around the property.",
       "tier": "tier1",
       "remediation": [
-        "Implement or verify the physical control for 'Lighting' (locks, barriers, lighting, sensors) in the relevant areas.",
-        "Add a simple maintenance/test cadence (monthly/quarterly) and log issues until resolved.",
-        "Reduce bypass risk: limit key/code access, fix weak points, and validate the control still works after changes."
+        "Install LED motion-sensor floodlights at all 'blind' corners of the house and over every exterior door.",
+        "Set light timers to keep the perimeter dimly lit from dusk to dawn, with high-intensity activation upon motion detection.",
+        "Perform a 'Dark Walk' once a month to identify and replace any burnt-out bulbs or misaligned sensors."
       ]
     },
     {
@@ -976,9 +976,9 @@
       "no_attribute": "The security system lacks backup power, rendering the property vulnerable during any electrical interruption.",
       "tier": "tier2",
       "remediation": [
-        "Implement or verify the physical control for 'Redundancy' (locks, barriers, lighting, sensors) in the relevant areas.",
-        "Add a simple maintenance/test cadence (monthly/quarterly) and log issues until resolved.",
-        "Reduce bypass risk: limit key/code access, fix weak points, and validate the control still works after changes."
+        "Connect the main security panel and internet router to an Uninterruptible Power Supply (UPS) that provides at least 4 hours of runtime.",
+        "Ensure the standby generator is programmed to automatically pick up the 'Security/Critical' circuit within 30 seconds of a utility fail.",
+        "Replace internal batteries in wireless sensors every 2 years to prevent communication failures during cold weather or power surges."
       ]
     },
     {
@@ -989,9 +989,9 @@
       "no_attribute": "Access credentials remain active long after service ends, creating a significant window of unauthorized entry.",
       "tier": "tier3",
       "remediation": [
-        "Implement or verify the physical control for 'Access Revocation' (locks, barriers, lighting, sensors) in the relevant areas.",
-        "Add a simple maintenance/test cadence (monthly/quarterly) and log issues until resolved.",
-        "Reduce bypass risk: limit key/code access, fix weak points, and validate the control still works after changes."
+        "Create a 'Termination Checklist' that includes the immediate deletion of user codes from the smart lock and alarm system apps.",
+        "Utilize a 'Cloud-Managed' access control system that allows for remote revocation of fobs or mobile keys from a single dashboard.",
+        "Automate code expiration by setting 'End Dates' for all temporary vendor credentials at the time they are issued."
       ]
     },
     {
@@ -1002,9 +1002,9 @@
       "no_attribute": "The property's surveillance coverage has not been audited for gaps, leaving hidden paths for intruders.",
       "tier": "tier3",
       "remediation": [
-        "Implement or verify the physical control for 'Blind Spot Audit' (locks, barriers, lighting, sensors) in the relevant areas.",
-        "Add a simple maintenance/test cadence (monthly/quarterly) and log issues until resolved.",
-        "Reduce bypass risk: limit key/code access, fix weak points, and validate the control still works after changes."
+        "Use a drone or a high-reach pole camera to view the property from an intruder's perspective and identify 'dead zones' in coverage.",
+        "Add 'Fill-in' cameras or wide-angle lenses to cover paths that lead from the property line to first-floor windows.",
+        "Relocate any cameras currently obstructed by seasonal foliage or architectural features (e.g., pillars or awnings)."
       ]
     },
     {
@@ -1015,9 +1015,9 @@
       "no_attribute": "Security hardware failures are only discovered after an incident, as there is no proactive system health alerting.",
       "tier": "tier3",
       "remediation": [
-        "Implement or verify the physical control for 'System Health Metrics' (locks, barriers, lighting, sensors) in the relevant areas.",
-        "Add a simple maintenance/test cadence (monthly/quarterly) and log issues until resolved.",
-        "Reduce bypass risk: limit key/code access, fix weak points, and validate the control still works after changes."
+        "Enable 'Health Monitoring' alerts within the NVR software to send a push notification if a hard drive indicates an error.",
+        "Configure 'Video Loss' alerts to sound an audible beep at the monitoring station if a camera cable is cut or fails.",
+        "Weekly, check the 'Recording History' to verify that all cameras are writing data to storage as expected."
       ]
     },
     {
@@ -1082,9 +1082,9 @@
       "no_attribute": "Lack of digital footprint oversight leaves family members vulnerable to doxxing, impersonation, or targeted social engineering.",
       "tier": "tier1",
       "remediation": [
-        "Review social media and public data exposure for family members every 6 months.",
-        "Lock down privacy settings and remove unnecessary public identifiers (address, routines, schools).",
-        "Set alerts for doxxing/impersonation and document escalation steps."
+        "Perform a 'Digital Footprint' audit by searching family names on Data Broker removal sites (e.g., DeleteMe) to delist home addresses and phone numbers.",
+        "Review privacy settings on all major social platforms (Instagram, LinkedIn, etc.) to ensure 'Location Tagging' is disabled and profiles are set to Private.",
+        "Identify 'Pattern of Life' indicators in public posts—such as recurring gym visits or school routes—and remove them to prevent physical stalking."
       ]
     },
     {
@@ -1095,9 +1095,9 @@
       "no_attribute": "The absence of a documented continuity plan could lead to confusion and lack of resources during a relocation-level emergency.",
       "tier": "tier1",
       "remediation": [
-        "Document a backup location and/or relocation plan (where to go, who coordinates, what to bring).",
-        "Ensure emergency funds and essential documents are accessible to primary contacts.",
-        "Review the plan annually and after major life changes."
+        "Designate a primary and secondary 'Rally Point' outside of the immediate geographic area for use during a natural disaster or security event.",
+        "Ensure a 'Go-Bag' containing localized emergency cash and copies of essential IDs is stored in a secure, fireproof location accessible to all family members.",
+        "Distribute a laminated 'Emergency Contact Card' to all family members with phone numbers for the house manager, private security, and legal counsel."
       ]
     },
     {
@@ -1108,9 +1108,9 @@
       "no_attribute": "Vendors are granted access without background checks, introducing significant insider risk to the household.",
       "tier": "tier1",
       "remediation": [
-        "Require vetting for new vendors (identity, references, background/security check as appropriate).",
-        "Limit vendor access to the minimum needed and time-box credentials/codes.",
-        "Offboard vendors promptly: revoke access and collect issued keys/badges."
+        "Mandate a multi-state criminal background check and sex offender registry search for any contractor with unescorted access to the property.",
+        "Verify that all service companies (HVAC, Solar, Cleaning) are fully bonded and insured before they begin work.",
+        "Maintain a 'Vetted Vendor' list; any worker not on the list must be escorted by staff at all times while on the premises."
       ]
     },
     {
@@ -1121,9 +1121,9 @@
       "no_attribute": "The family remains financially exposed to the high costs of data restoration, legal fees, and fraud following a cyber incident.",
       "tier": "tier1",
       "remediation": [
-        "Review cyber and identity-theft coverage with an insurance professional at least annually.",
-        "Confirm coverage limits match realistic loss scenarios (fraud, restoration costs, legal/PR).",
-        "Document policy numbers, contacts, and claim steps in the incident plan."
+        "Verify that the existing homeowners or umbrella policy includes a specific 'Cyber Endorsement' for ransomware and social engineering fraud.",
+        "Assess the 'Loss of Funds' coverage limit to ensure it matches the maximum daily transfer limit of the family’s primary bank accounts.",
+        "Document the 24/7 incident response hotline provided by the insurance carrier for immediate deployment of forensic experts after a breach."
       ]
     },
     {
@@ -1134,9 +1134,9 @@
       "no_attribute": "Incomplete asset tracking makes it impossible to fully secure the environment or identify missing/stolen hardware.",
       "tier": "tier2",
       "remediation": [
-        "Maintain an asset inventory for computers, phones, smart devices, critical accounts, and sensitive data stores.",
-        "Assign an owner per asset and track lifecycle (purchase, deployment, decommission).",
-        "Review and reconcile the inventory quarterly."
+        "Maintain a Master Asset Ledger recording Make, Model, Serial Number, and assigned user for every laptop, tablet, and smartphone.",
+        "Assign a 'Criticality Tier' to digital accounts (e.g., Primary Email, Banking, Security App) to prioritize recovery efforts during an incident.",
+        "Perform a physical 'Accountability Sweep' once a quarter to verify that all decommissioned devices have been wiped and physically destroyed."
       ]
     },
     {
@@ -1147,9 +1147,9 @@
       "no_attribute": "International travel is conducted without formal security guidelines, increasing the risk of device theft or physical incidents.",
       "tier": "tier2",
       "remediation": [
-        "Document travel security procedures (device hygiene, communications plan, emergency contacts).",
-        "Use pre-travel briefings for high-risk destinations and require secure connectivity practices.",
-        "Review incidents/lessons learned after trips and update procedures."
+        "Utilize 'Travel Laptops' and 'Burner Phones' with minimal data for trips to high-risk jurisdictions to mitigate device seizure risks.",
+        "Require the use of a hardware-encrypted VPN for all Wi-Fi connections while traveling to prevent local man-in-the-middle attacks.",
+        "Establish a 'Check-In' cadence (e.g., every 12 hours) where the traveler confirms their location and safety with the house manager or family office."
       ]
     },
     {
@@ -1160,9 +1160,9 @@
       "no_attribute": "A flat network architecture allows for lateral movement, meaning one compromised guest device could lead to a full data breach.",
       "tier": "tier2",
       "remediation": [
-        "Segment networks (guest, IoT, family/business) and restrict lateral movement between segments.",
-        "Use strong Wi‑Fi security (WPA2/WPA3), unique passwords, and disable insecure protocols.",
-        "Audit connected devices quarterly and remove unknown devices."
+        "Implement a 'Trust-Based' network architecture where the primary family network is unreachable from the Guest Wi-Fi.",
+        "Separate the 'Smart Home' backbone (Solar, Lighting, HVAC) onto a dedicated VLAN that has no access to personal computers or servers.",
+        "Enable 'Client Isolation' on the Guest network to prevent visitors' devices from seeing or communicating with each other."
       ]
     },
     {
@@ -1173,9 +1173,9 @@
       "no_attribute": "Weak termination procedures may allow departed staff to retain sensitive information or physical access to the estate.",
       "tier": "tier2",
       "remediation": [
-        "Use standardized employment and termination templates that include confidentiality, access return, and device/key return.",
-        "Have legal/security review agreements annually or when major roles change.",
-        "Confirm separation steps are executed (account disablement, code rotation, asset return)."
+        "Include a 'Digital Offboarding' clause in all staff contracts that mandates the immediate return of all devices and the deletion of personal copies of family data.",
+        "Standardize an 'Exit Interview' checklist that requires the physical handover of keys, fobs, and the removal of the employee from the shared password manager.",
+        "Notify the security system provider immediately upon staff termination to permanently blacklist their biometric or RFID credentials."
       ]
     },
     {
@@ -1186,9 +1186,9 @@
       "no_attribute": "Lack of financial verification steps leaves the household vulnerable to wire fraud and unauthorized large-scale purchases.",
       "tier": "tier2",
       "remediation": [
-        "Implement approval thresholds for large purchases (who approves, how verification is done).",
-        "Use fraud-resistant payment methods and enable transaction alerts.",
-        "Verify vendor legitimacy and shipping details out-of-band for high-value orders."
+        "Establish a 'Dual-Authorization' rule for any wire transfer or payment exceeding a specific threshold (e.g., $10,000).",
+        "Use 'Virtual Credit Cards' with set spending limits for recurring vendor payments to prevent a single compromise from draining the main account.",
+        "Require a verbal 'Out-of-Band' confirmation via a known phone number before approving any change to vendor payment instructions or bank details."
       ]
     },
     {
@@ -1199,9 +1199,9 @@
       "no_attribute": "Self-assessment alone may miss critical vulnerabilities that an expert third-party auditor would identify.",
       "tier": "tier3",
       "remediation": [
-        "Schedule independent security assessments on a recurring cadence (annual or semi-annual).",
-        "Define scope (external exposure, Wi‑Fi, smart-home, phishing) and success criteria up front.",
-        "Track findings to closure with owners and due dates."
+        "Commission an annual 'Black Box' penetration test of the external-facing network to identify vulnerabilities in the router and smart-home portals.",
+        "Hire a physical security consultant to perform a 'Red Team' walk-through of the property to test for perimeter weaknesses and gate-bypass methods.",
+        "Conduct a 'Social Engineering' test on household staff to assess their vulnerability to phishing and 'fake service technician' scenarios."
       ]
     },
     {
@@ -1212,9 +1212,9 @@
       "no_attribute": "Security efforts are generalized rather than targeted, potentially ignoring the most likely or damaging threats to the family.",
       "tier": "tier3",
       "remediation": [
-        "Perform an annual threat modeling session covering targeted threats, insider risk, and cyber/physical overlaps.",
-        "Document top risks and map them to controls and owners.",
-        "Revisit the model after major changes (new staff, renovation, new systems)."
+        "Develop a specific 'Threat Profile' based on the family’s industry, wealth visibility, and political exposure to identify likely adversaries.",
+        "Map every security control (Cameras, MFA, Fencing) back to a specific threat (e.g., Burglary, Kidnapping, Corporate Espionage) to identify gaps.",
+        "Update the threat model immediately following a significant life event, such as a new business acquisition or a move to a new property."
       ]
     },
     {
@@ -1225,9 +1225,9 @@
       "no_attribute": "Backups are unverified, meaning the family may discover their data is unrecoverable only after a catastrophic failure occurs.",
       "tier": "tier3",
       "remediation": [
-        "Define which systems/data are 'critical' and ensure backups meet recovery objectives.",
-        "Test restores on a schedule and document proof of successful recovery.",
-        "Fix backup gaps immediately and retest after changes."
+        "Perform a full 'Bare Metal Restore' test on a secondary device once every six months to verify the integrity of the primary cloud backup.",
+        "Validate the 'Version History' of critical files to ensure that backups have not been corrupted by dormant ransomware or accidental deletion.",
+        "Establish a 'Recovery Time Objective' (RTO) for family documents and financial records to ensure they are accessible within 4 hours of a failure."
       ]
     },
     {
@@ -1238,9 +1238,9 @@
       "no_attribute": "Short-term or unsecured logs make it impossible to investigate historic breaches or identify long-term insider threats.",
       "tier": "tier3",
       "remediation": [
-        "Set log retention requirements for critical systems (e.g., 12 months) and verify storage capacity.",
-        "Protect logs from tampering (restricted access, backups, immutable storage if available).",
-        "Periodically validate that logs are being captured and can be retrieved when needed."
+        "Configure the smart home server and network gateway to export logs to an immutable off-site storage location (e.g., an AWS S3 bucket with Object Lock).",
+        "Ensure that 'Administrative Access' logs record the specific user ID and timestamp for every change made to the house security configuration.",
+        "Enable 'Audit Logging' for the family's primary email suite to track successful logins and any changes to mail-forwarding rules."
       ]
     },
     {
@@ -1251,9 +1251,9 @@
       "no_attribute": "Policies exist 'on paper' only, with no verification that household staff are actually adhering to the required security behaviors.",
       "tier": "tier3",
       "remediation": [
-        "Set a recurring schedule to review security policies (e.g., annually) and assign an owner.",
-        "Verify compliance with spot checks and follow up on gaps with training or process changes.",
-        "Version policies and document approvals/updates."
+        "Conduct 'Unscheduled Spot Checks' on physical gates and technical controls to verify that staff are not using shortcuts (e.g., propping doors open).",
+        "Require all household staff to complete a 15-minute 'Security Awareness' refresher once a quarter, covering current phishing trends.",
+        "Incorporate 'Security Compliance' as a core metric in annual staff performance reviews and bonus structures."
       ]
     },
     {
@@ -1264,9 +1264,9 @@
       "no_attribute": "The lack of an emergency sanctuary protocol could lead to panic and increased physical danger during a breach of the home.",
       "tier": "tier1",
       "remediation": [
-        "Document the risk/control expectation for 'Physical Risk' and assign an owner to review it on a regular cadence.",
-        "Maintain evidence (logs, inventories, policies, vendor docs) so the control can be verified quickly.",
-        "Reassess annually or after major changes (new staff, travel, renovation, new systems) and update the plan."
+        "Designate a specific, reinforced interior room as the 'Safe Room' and equip it with a dedicated hardwired phone line and cellular backup.",
+        "Conduct a family 'Drill' twice a year to ensure everyone can reach the safe room and secure the door in under 60 seconds.",
+        "Stock the safe room with a first-aid kit, emergency lighting, and a secondary monitor linked to the perimeter security cameras."
       ]
     },
     {
@@ -1277,9 +1277,9 @@
       "no_attribute": "Reliance on password-only or SMS-based authentication leaves high-value accounts vulnerable to SIM swapping and phishing.",
       "tier": "tier2",
       "remediation": [
-        "Document the risk/control expectation for 'Digital Identity' and assign an owner to review it on a regular cadence.",
-        "Maintain evidence (logs, inventories, policies, vendor docs) so the control can be verified quickly.",
-        "Reassess annually or after major changes (new staff, travel, renovation, new systems) and update the plan."
+        "Enforce 'Hardware-Only' MFA for the primary family email domain, blocking all SMS and app-based 2FA as viable login methods.",
+        "Issue YubiKeys to all family members and the house manager, with a secondary 'Backup Key' stored in a physical safe.",
+        "Enable 'Advanced Protection' modes on Google or Microsoft accounts to restrict third-party app access to sensitive data."
       ]
     },
     {
@@ -1290,9 +1290,9 @@
       "no_attribute": "Without automated alerts, financial fraud or identity theft could go unnoticed until significant damage has already been done.",
       "tier": "tier3",
       "remediation": [
-        "Document the risk/control expectation for 'Continuous Monitoring' and assign an owner to review it on a regular cadence.",
-        "Maintain evidence (logs, inventories, policies, vendor docs) so the control can be verified quickly.",
-        "Reassess annually or after major changes (new staff, travel, renovation, new systems) and update the plan."
+        "Place a 'Security Freeze' on credit files with all three major bureaus (Equifax, Experian, TransUnion) to prevent unauthorized account opening.",
+        "Set 'Low Balance' and 'Large Transaction' push notifications for every financial account associated with the family office.",
+        "Utilize a dark-web monitoring service to receive immediate alerts if any family email addresses or passwords appear in a new data breach."
       ]
     },
     {
@@ -1303,9 +1303,9 @@
       "no_attribute": "The family implicitly trusts third-party partners without verifying their security posture, creating a blind spot in the overall risk profile.",
       "tier": "tier3",
       "remediation": [
-        "Document the risk/control expectation for 'Supply Chain Risk' and assign an owner to review it on a regular cadence.",
-        "Maintain evidence (logs, inventories, policies, vendor docs) so the control can be verified quickly.",
-        "Reassess annually or after major changes (new staff, travel, renovation, new systems) and update the plan."
+        "Request a copy of the SOC2 Type II or ISO 27001 audit report from the primary Family Office and Private Bank annually.",
+        "Include a 'Right to Audit' or 'Security Representation' clause in all contracts with high-access vendors (e.g., IT providers, personal assistants).",
+        "Maintain a 'Partner Risk Scorecard' that tracks any publicly reported breaches or security incidents involving third-party partners."
       ]
     },
     {
