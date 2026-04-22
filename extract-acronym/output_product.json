@@ -1,0 +1,558 @@
+{
+  "PEOPLE": [
+    {
+      "id": "PEOPLE_001",
+      "control_description": "Security Training for Devs",
+      "question": "Do all developers receive annual training on the OWASP Top 10?",
+      "yes_attribute": "All developers receive annual training on the OWASP Top 10.",
+      "no_attribute": "Not all developers receive annual training on the OWASP Top 10.",
+      "tier": "tier1",
+      "remediation": [
+        "Select a reputable third-party training platform or develop an internal curriculum covering the current OWASP Top 10 vulnerabilities.",
+        "Implement a tracking system (LMS) to ensure 100% completion of training for all engineering staff on an annual basis.",
+        "Make OWASP training a mandatory prerequisite for new developer onboarding and production code access."
+      ]
+    },
+    {
+      "id": "PEOPLE_002",
+      "control_description": "Customer Security Support",
+      "question": "Is there a documented process for customers to report product security issues?",
+      "yes_attribute": "There is a documented process for customers to report product security issues.",
+      "no_attribute": "There is no documented process for customers to report product security issues.",
+      "tier": "tier1",
+      "remediation": [
+        "Create a public security policy or 'security.txt' file that clearly outlines the channels for reporting vulnerabilities.",
+        "Establish an internal triage workflow with defined response times to acknowledge and validate customer-reported security bugs.",
+        "Automate the ticketing process for security reports to ensure they are immediately routed to the security team."
+      ]
+    },
+    {
+      "id": "PEOPLE_003",
+      "control_description": "Security Training for Devs",
+      "question": "Is role-specific security training (e.g., cloud security, secure APIs) required for senior engineers?",
+      "yes_attribute": "Role-specific security training (e.g., cloud security, secure APIs) is required for senior engineers.",
+      "no_attribute": "Role-specific security training (e.g., cloud security, secure APIs) is not required for senior engineers.",
+      "tier": "tier2",
+      "remediation": [
+        "Identify key technical specializations (cloud, mobile, API) and map advanced security training modules to corresponding senior roles.",
+        "Allocate dedicated professional development budget for senior engineers to obtain industry-recognized security certifications.",
+        "Integrate advanced security training milestones into the career development plans for senior and lead engineering positions."
+      ]
+    },
+    {
+      "id": "PEOPLE_004",
+      "control_description": "Customer Security Support",
+      "question": "Is there a dedicated technical support tier for handling customer security and privacy inquiries?",
+      "yes_attribute": "There is a dedicated technical support tier for handling customer security and privacy inquiries.",
+      "no_attribute": "There is no dedicated technical support tier for handling customer security and privacy inquiries.",
+      "tier": "tier2",
+      "remediation": [
+        "Define the organizational structure and required expertise for a specialized security support team to handle complex inquiries.",
+        "Document standard operating procedures (SOPs) for escalating security and privacy tickets from general support to the specialized tier.",
+        "Provide regular training for specialized support staff on the product\u2019s security features and data privacy architecture."
+      ]
+    },
+    {
+      "id": "PEOPLE_005",
+      "control_description": "Security Training for Devs",
+      "question": "Is security performance (e.g., low bug density) used as a KPI for engineering promotions?",
+      "yes_attribute": "Security performance (e.g., low bug density) is used as a KPI for engineering promotions.",
+      "no_attribute": "Security performance (e.g., low bug density) is not used as a KPI for engineering promotions.",
+      "tier": "tier3",
+      "remediation": [
+        "Establish clear, measurable security metrics such as 'security bug density' or 'mean time to remediate' (MTTR) for developers.",
+        "Update the engineering career ladder and review templates to explicitly include security contributions and code quality.",
+        "Provide managers with dashboards to track team and individual adherence to secure coding standards during promotion cycles."
+      ]
+    },
+    {
+      "id": "PEOPLE_006",
+      "control_description": "Customer Security Support",
+      "question": "Does the product team provide \"security office hours\" or proactive guidance to help customers harden their specific instances?",
+      "yes_attribute": "The product team provides \"security office hours\" or proactive guidance to help customers harden their specific instances.",
+      "no_attribute": "The product team does not provide \"security office hours\" or proactive guidance to help customers harden their specific instances.",
+      "tier": "tier3",
+      "remediation": [
+        "Schedule recurring 'security office hours' led by security architects to address customer-specific hardening questions.",
+        "Publish a comprehensive 'security hardening guide' with actionable checklists for customers to optimize their deployment.",
+        "Develop automated 'health check' scripts that customers can run to identify potential misconfigurations in their own environments."
+      ]
+    }
+  ],
+  "PROCESS": [
+    {
+      "id": "PROCESS_001",
+      "control_description": "Secure SDLC",
+      "question": "Are basic security gates (code reviews) required for all releases?",
+      "yes_attribute": "Basic security gates (code reviews) are required for all releases.",
+      "no_attribute": "Basic security gates (code reviews) are not required for all releases.",
+      "tier": "tier1",
+      "remediation": [
+        "Implement a mandatory peer review policy for all code changes before they can be merged into the main branch.",
+        "Configure branch protection rules in your version control system (e.g., GitHub/GitLab) to require at least one approval from a designated reviewer.",
+        "Utilize a standardized code review checklist that includes specific security-focused items like input validation, error handling, and authorization checks."
+      ]
+    },
+    {
+      "id": "PROCESS_002",
+      "control_description": "Bug Bounty & Disclosure",
+      "question": "Is there a public-facing contact for vulnerability reporting?",
+      "yes_attribute": "There is a public-facing contact for vulnerability reporting.",
+      "no_attribute": "There is no public-facing contact for vulnerability reporting.",
+      "tier": "tier1",
+      "remediation": [
+        "Setup a dedicated security email address (e.g., security@yourcompany.com) or a secure web form for external researchers to report issues.",
+        "Publish a clear vulnerability disclosure policy (VDP) on the company website that outlines legal safe harbor and reporting expectations.",
+        "Implement a 'security.txt' file in the root directory of the product's domain to help security researchers easily discover your reporting channels."
+      ]
+    },
+    {
+      "id": "PROCESS_003",
+      "control_description": "Vulnerability Remediation",
+      "question": "Are critical vulnerabilities patched within 30 days of discovery?",
+      "yes_attribute": "Critical vulnerabilities are patched within 30 days of discovery.",
+      "no_attribute": "Critical vulnerabilities are not patched within 30 days of discovery.",
+      "tier": "tier1",
+      "remediation": [
+        "Define and document a formal patch management policy with specific SLAs for different severity levels (e.g., critical = 30 days).",
+        "Integrate automated vulnerability scanning tools that alert the engineering team immediately upon discovery of a critical flaw.",
+        "Establish a recurring 'Patch Tuesday' or similar maintenance window to ensure the regular deployment of security fixes across all environments."
+      ]
+    },
+    {
+      "id": "PROCESS_004",
+      "control_description": "Secure SDLC",
+      "question": "Is a formal s-SDLC followed for every sprint, including threat modeling?",
+      "yes_attribute": "A formal s-SDLC is followed for every sprint, including threat modeling.",
+      "no_attribute": "A formal s-SDLC is not followed for every sprint.",
+      "tier": "tier2",
+      "remediation": [
+        "Formalize the secure software development life cycle (s-SDLC) and integrate it into the standard sprint planning process for all squads.",
+        "Conduct mandatory threat modeling sessions at the start of any major feature design phase to identify potential architectural risks early.",
+        "Train 'security champions' within each engineering squad to facilitate threat modeling and secure design reviews locally."
+      ]
+    },
+    {
+      "id": "PROCESS_005",
+      "control_description": "Bug Bounty & Disclosure",
+      "question": "Is there a formal bug bounty program with defined triage and remediation SLAs?",
+      "yes_attribute": "There is a formal bug bounty program with defined triage and remediation SLAs.",
+      "no_attribute": "There is no formal bug bounty program.",
+      "tier": "tier2",
+      "remediation": [
+        "Launch a private bug bounty program on a platform like HackerOne or Bugcrowd to start receiving vetted reports from trusted researchers.",
+        "Define clear internal service level agreements (SLAs) for the triage, validation, and resolution of reported security bugs.",
+        "Transition from a private to a public bug bounty program once internal security maturity and remediation capacity can handle the volume."
+      ]
+    },
+    {
+      "id": "PROCESS_006",
+      "control_description": "Vulnerability Remediation",
+      "question": "Is there a risk-prioritization process (CVSS/EPSS) to manage the vulnerability backlog?",
+      "yes_attribute": "A risk-prioritization process (CVSS/EPSS) is used to manage the vulnerability backlog.",
+      "no_attribute": "No risk-prioritization process is in place for the vulnerability backlog.",
+      "tier": "tier2",
+      "remediation": [
+        "Adopt the CVSS (Common Vulnerability Scoring System) framework to consistently measure and rank the severity of identified vulnerabilities.",
+        "Incorporate EPSS (Exploit Prediction Scoring System) data into the prioritization process to focus on vulnerabilities most likely to be exploited in the wild.",
+        "Maintain a centralized vulnerability backlog and conduct weekly reviews to adjust priorities based on emerging threat intelligence and business context."
+      ]
+    },
+    {
+      "id": "PROCESS_007",
+      "control_description": "Secure SDLC",
+      "question": "Are security gates fully automated in the CI/CD pipeline, blocking non-compliant builds?",
+      "yes_attribute": "Security gates are fully automated in the CI/CD pipeline and block non-compliant builds.",
+      "no_attribute": "Security gates are not fully automated or do not block non-compliant builds.",
+      "tier": "tier3",
+      "remediation": [
+        "Integrate static application security testing (SAST) and software composition analysis (SCA) directly into the CI/CD pipeline.",
+        "Set policy threshold levels that automatically fail and block the build if high or critical vulnerabilities are detected during the CI stage.",
+        "Automate the deployment and execution of dynamic application security testing (DAST) in a staging environment before any production release."
+      ]
+    },
+    {
+      "id": "PROCESS_008",
+      "control_description": "Bug Bounty & Disclosure",
+      "question": "Are RCA findings from public reports fed back into the SDLC to prevent systemic recurrence?",
+      "yes_attribute": "RCA findings from public reports are fed back into the SDLC.",
+      "no_attribute": "RCA findings are not systematically fed back into the SDLC.",
+      "tier": "tier3",
+      "remediation": [
+        "Conduct a formal root cause analysis (RCA) for every major security incident or high-severity bug bounty report received.",
+        "Create a 'lessons learned' knowledge base and update secure coding guidelines based on the findings from previous RCAs.",
+        "Implement automated linting rules or custom static analysis checks specifically designed to prevent the recurrence of previously identified flaw patterns."
+      ]
+    },
+    {
+      "id": "PROCESS_009",
+      "control_description": "Vulnerability Remediation",
+      "question": "Is there an automated rollback or \"emergency patch\" process for critical production flaws?",
+      "yes_attribute": "An automated rollback or emergency patch process exists for critical production flaws.",
+      "no_attribute": "No automated rollback or emergency patch process exists.",
+      "tier": "tier3",
+      "remediation": [
+        "Develop and document a high-speed 'emergency patch' workflow that bypasses non-critical staging steps for verified production flaws.",
+        "Implement automated rollback capabilities in the deployment pipeline to instantly revert to a known-good state if a flaw is discovered post-release.",
+        "Conduct quarterly 'fire drills' or simulations of the emergency patch process to ensure the team can execute a deployment within hours of discovery."
+      ]
+    }
+  ],
+  "TECHNOLOGY": [
+    {
+      "id": "TECHNOLOGY_001",
+      "control_description": "Multi-tenancy Isolation",
+      "question": "Are customer data sets logically separated at the database or application layer?",
+      "yes_attribute": "Customer data sets are logically separated at the database or application layer.",
+      "no_attribute": "Customer data sets are not logically separated between tenants.",
+      "tier": "tier1",
+      "remediation": [
+        "Implement a 'tenant ID' column on every database table containing customer data and enforce its use in all application-level queries.",
+        "Utilize row-level security (RLS) features within your database engine to automatically restrict data access based on the authenticated user's tenant context.",
+        "Perform regular automated testing (e.g., negative tests) to verify that a request for one tenant's ID using another tenant's session returns an error."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_002",
+      "control_description": "Telemetry & Logging",
+      "question": "Does the product generate basic logs for successful/failed logins?",
+      "yes_attribute": "The product generates basic logs for successful and failed login attempts.",
+      "no_attribute": "The product does not generate logs for login attempts.",
+      "tier": "tier1",
+      "remediation": [
+        "Enable logging for all authentication events, ensuring you capture the timestamp, source IP address, username, and success/fail status.",
+        "Ensure that login logs are written to a secure, write-only log stream that is separate from standard application debug logs.",
+        "Review logging configurations to ensure that sensitive data like passwords or full session tokens are never recorded in plaintext."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_003",
+      "control_description": "Auth & Identity",
+      "question": "Does the product support basic username/password complexity?",
+      "yes_attribute": "The product supports and enforces basic username/password complexity requirements.",
+      "no_attribute": "The product does not enforce password complexity requirements.",
+      "tier": "tier1",
+      "remediation": [
+        "Implement server-side validation to enforce minimum password length and a variety of character types (uppercase, lowercase, numbers, symbols).",
+        "Integrate a library to check passwords against common 'pwned' password databases or 'leaked credential' lists during account creation or password resets.",
+        "Provide real-time feedback to users in the UI regarding password strength to encourage more secure choices during the sign-up process."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_004",
+      "control_description": "Secrets Management",
+      "question": "Are API keys and database credentials encrypted in a config file?",
+      "yes_attribute": "API keys and database credentials are encrypted within configuration files.",
+      "no_attribute": "API keys and credentials are stored in plaintext in configuration files.",
+      "tier": "tier1",
+      "remediation": [
+        "Use a tool like SOPs or ansible vault to encrypt sensitive configuration files before committing them to your version control repository.",
+        "Implement a build-time process that injects secrets from an environment variable rather than hardcoding them into configuration files.",
+        "Utilize public-key encryption so that only the target production server's private key can decrypt the application configuration at startup."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_005",
+      "control_description": "Multi-tenancy Isolation",
+      "question": "Is there automated validation to ensure one customer cannot access another\u2019s data (IDOR prevention)?",
+      "yes_attribute": "Automated validation is in place to prevent insecure direct object reference (IDOR) attacks.",
+      "no_attribute": "There is no automated validation to prevent one customer from accessing another's data.",
+      "tier": "tier2",
+      "remediation": [
+        "Implement a centralized authorization middleware that validates the ownership of a resource (e.g., object ID) against the current user's session ID.",
+        "Use non-predictable, cryptographically strong identifiers (like UUIDs) for resource handles instead of sequential integer IDs.",
+        "Integrate automated DAST tools that specifically test for IDOR by attempting to swap object IDs between different authenticated user contexts."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_006",
+      "control_description": "Telemetry & Logging",
+      "question": "Are detailed audit logs (API calls, data exports) centralized and stored for 90+ days?",
+      "yes_attribute": "Detailed audit logs are centralized and retained for at least 90 days.",
+      "no_attribute": "Audit logs are not centralized or are retained for less than 90 days.",
+      "tier": "tier2",
+      "remediation": [
+        "Configure log forwarders (e.g., Fluentd, Logstash) to send all application and system logs to a central log management platform like Splunk or Datadog.",
+        "Define and enforce a data retention policy in your logging platform to prevent the automatic deletion of audit logs before the 90-day threshold.",
+        "Implement log integrity checks (e.g., digital signing or hashing) to ensure that audit logs cannot be tampered with after they are generated."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_007",
+      "control_description": "Auth & Identity",
+      "question": "Does the product support MFA and enterprise SSO integration (SAML/OIDC)?",
+      "yes_attribute": "The product supports multi-factor authentication (MFA) and enterprise SSO (SAML/OIDC).",
+      "no_attribute": "The product lacks support for MFA or enterprise SSO integrations.",
+      "tier": "tier2",
+      "remediation": [
+        "Integrate an identity provider (idp) service like Okta, Auth0, or Microsoft Entra ID to support SAML 2.0 or OIDC protocols.",
+        "Enforce mandatory MFA (e.g., TOTP or webauthn) for all users, or at a minimum, for all administrative roles within the application.",
+        "Provide an 'SSO configuration' portal for enterprise customers to allow them to map their own corporate directories to the product."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_008",
+      "control_description": "Secrets Management",
+      "question": "Is a dedicated secrets vault (e.g., HashiCorp Vault) used to retrieve credentials at runtime?",
+      "yes_attribute": "A dedicated secrets vault is used to retrieve credentials dynamically at runtime.",
+      "no_attribute": "Credentials are not managed via a dedicated vault and are likely static.",
+      "tier": "tier2",
+      "remediation": [
+        "Migrate all static secrets from environment variables and config files into a managed vault such as HashiCorp Vault, AWS Secrets Manager, or Azure Key Vault.",
+        "Refactor application code to use sdks or 'sidecar' agents that pull secrets from the vault only when they are needed at runtime.",
+        "Implement a policy where secrets are never stored on persistent disk and only exist in memory for the duration of the application's process."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_009",
+      "control_description": "Multi-tenancy Isolation",
+      "question": "Is hardware-level or container-level isolation used for high-risk customer workloads?",
+      "yes_attribute": "Hardware or container-level isolation is used for high-risk workloads.",
+      "no_attribute": "High-risk workloads do not have dedicated hardware or container-level isolation.",
+      "tier": "tier3",
+      "remediation": [
+        "Deploy high-risk customer workloads into dedicated Kubernetes namespaces with strict pod security policies and network policies.",
+        "Utilize micro-VM technology (e.g., Firecracker or gVisor) to provide stronger isolation for untrusted code execution or multi-tenant processing.",
+        "Assign high-value or sensitive customers to dedicated 'single-tenant' infrastructure clusters to eliminate the risk of 'noisy neighbor' or cross-tenant leaks."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_010",
+      "control_description": "Telemetry & Logging",
+      "question": "Are logs analyzed in real-time by a SIEM to detect and block suspicious account activity?",
+      "yes_attribute": "Logs are analyzed in real-time by a SIEM to detect and block suspicious activity.",
+      "no_attribute": "Logs are not analyzed in real-time for threat detection.",
+      "tier": "tier3",
+      "remediation": [
+        "Establish real-time alerts in your SIEM for anomalous patterns, such as multiple failed logins followed by a successful one from a new IP (brute force).",
+        "Integrate automated response actions (SOAR) that can temporarily disable a user account or block an IP address when a high-confidence alert is triggered.",
+        "Regularly tune SIEM detection rules using threat intelligence feeds to ensure you are monitoring for current and relevant attack vectors."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_011",
+      "control_description": "Auth & Identity",
+      "question": "Does the product utilize \"risk-based\" auth to trigger challenges based on unusual behavior?",
+      "yes_attribute": "The product utilizes risk-based authentication to trigger security challenges.",
+      "no_attribute": "The product does not support risk-based or adaptive authentication.",
+      "tier": "tier3",
+      "remediation": [
+        "Implement an adaptive authentication engine that calculates a 'risk score' for each login based on location, device fingerprint, and time of day.",
+        "Configure the system to automatically require a second factor (MFA) only when the login risk score exceeds a specific threshold.",
+        "Enable 'impossible travel' detection to flag and block login attempts that occur from geographically distant locations within a short timeframe."
+      ]
+    },
+    {
+      "id": "TECHNOLOGY_012",
+      "control_description": "Secrets Management",
+      "question": "Are short-lived tokens or \"dynamic secrets\" used, eliminating permanent credentials?",
+      "yes_attribute": "Short-lived tokens or dynamic secrets are used instead of permanent credentials.",
+      "no_attribute": "The system relies on permanent credentials rather than dynamic secrets.",
+      "tier": "tier3",
+      "remediation": [
+        "Configure your secrets vault to generate 'dynamic' database credentials that expire automatically after a set period (e.g., 4 hours).",
+        "Implement just-in-time (JIT) access for administrative tasks, where temporary elevated permissions are granted and then revoked automatically.",
+        "Use short-lived OIDC tokens for machine-to-machine authentication to eliminate the need for long-lived static API keys."
+      ]
+    }
+  ],
+  "SECURITY_AND_RELIABILITY": [
+    {
+      "id": "SECURITY_AND_RELIABILITY_001",
+      "control_description": "Product Roadmap",
+      "question": "Is there a roadmap that includes security features?",
+      "yes_attribute": "There is a product roadmap that explicitly includes security features and enhancements.",
+      "no_attribute": "The product roadmap does not currently track specific security features.",
+      "tier": "tier1",
+      "remediation": [
+        "Create a dedicated 'security' track or swimlane within the master product roadmap to ensure visibility for security debt and features.",
+        "Ensure at least 10-20% of every development cycle (sprint/quarter) is allocated to security-specific enhancements or vulnerability remediation.",
+        "Document and share the high-level security roadmap with key internal stakeholders to align security goals with business growth."
+      ]
+    },
+    {
+      "id": "SECURITY_AND_RELIABILITY_002",
+      "control_description": "Compliance Mapping",
+      "question": "Does the product meet minimum regulatory requirements (GDPR, etc.)?",
+      "yes_attribute": "The product meets minimum regulatory requirements, such as GDPR or relevant industry standards.",
+      "no_attribute": "The product does not yet fully meet minimum regulatory requirements.",
+      "tier": "tier1",
+      "remediation": [
+        "Conduct a formal data protection impact assessment (DPIA) to identify gaps in GDPR compliance or other relevant regional regulations.",
+        "Implement a 'privacy by design' framework that includes automated cookie consent management and data subject access request (DSAR) workflows.",
+        "Engage a third-party legal or compliance firm to perform an annual audit and provide a gap analysis against target regulatory standards."
+      ]
+    },
+    {
+      "id": "SECURITY_AND_RELIABILITY_003",
+      "control_description": "Third-Party Risk (SBOM)",
+      "question": "Is there an inventory of all open-source libraries used?",
+      "yes_attribute": "An inventory of all open-source libraries used in the product is maintained.",
+      "no_attribute": "There is no centralized inventory of open-source libraries used.",
+      "tier": "tier1",
+      "remediation": [
+        "Implement a software composition analysis (SCA) tool (e.g., Snyk, FOSSA) to automatically scan and index all third-party dependencies.",
+        "Maintain a 'golden repository' of approved open-source libraries and forbid the use of any library not currently in the approved inventory.",
+        "Configure automated alerts to notify the security team when a library in the inventory reaches 'end of life' (EOL) or loses community support."
+      ]
+    },
+    {
+      "id": "SECURITY_AND_RELIABILITY_004",
+      "control_description": "Product Roadmap",
+      "question": "Is the roadmap reviewed quarterly with cross-functional stakeholders?",
+      "yes_attribute": "The security roadmap is reviewed quarterly with cross-functional stakeholders.",
+      "no_attribute": "There is no quarterly cross-functional review of the security roadmap.",
+      "tier": "tier2",
+      "remediation": [
+        "Establish a recurring quarterly security steering committee involving product, engineering, legal, and sales leadership.",
+        "Standardize a reporting template that tracks security roadmap progress, upcoming milestones, and emerging risks to present during reviews.",
+        "Implement a formal sign-off process where stakeholders acknowledge the trade-offs made between new features and security investments."
+      ]
+    },
+    {
+      "id": "SECURITY_AND_RELIABILITY_005",
+      "control_description": "Compliance Mapping",
+      "question": "Is the architecture mapped against a framework like NIST SSDF or ISO 27001?",
+      "yes_attribute": "The architecture is mapped against an industry framework such as NIST SSDF or ISO 27001.",
+      "no_attribute": "The architecture is not formally mapped against a security framework.",
+      "tier": "tier2",
+      "remediation": [
+        "Perform a formal mapping exercise to align current architectural controls with the NIST secure software development framework (SSDF) requirements.",
+        "Utilize a GRC (governance, risk, and compliance) platform to track control implementation status against ISO 27001 Annex A controls.",
+        "Develop an internal 'control catalog' that bridges technical architecture diagrams to specific compliance framework citations."
+      ]
+    },
+    {
+      "id": "SECURITY_AND_RELIABILITY_006",
+      "control_description": "Third-Party Risk (SBOM)",
+      "question": "Is a software bill of materials (SBOM) generated for every release?",
+      "yes_attribute": "A software bill of materials (SBOM) is automatically generated for every release.",
+      "no_attribute": "An SBOM is not generated for product releases.",
+      "tier": "tier2",
+      "remediation": [
+        "Integrate an SBOM generation tool (using CycloneDX or SPDX formats) into the final stage of the CI/CD build pipeline.",
+        "Store a versioned SBOM alongside every release artifact in your package manager (e.g., Artifactory, Nexus).",
+        "Define a process to provide customers with the SBOM upon request or via a secure customer portal to support their own supply chain risk management."
+      ]
+    },
+    {
+      "id": "SECURITY_AND_RELIABILITY_007",
+      "control_description": "Product Roadmap",
+      "question": "Is the roadmap dynamically updated based on threat intel and customer feedback loops?",
+      "yes_attribute": "The roadmap is dynamically updated based on threat intelligence and customer feedback loops.",
+      "no_attribute": "The roadmap is static and does not incorporate real-time threat intelligence.",
+      "tier": "tier3",
+      "remediation": [
+        "Establish a 'fast track' process in the roadmap to allow for the immediate insertion of items triggered by zero-day threats or critical intel.",
+        "Integrate feedback from the bug bounty program and customer security inquiries directly into the product backlog refinement process.",
+        "Utilize threat modeling data from new attack vectors found in the wild to proactively pivot the roadmap toward more resilient architectural patterns."
+      ]
+    },
+    {
+      "id": "SECURITY_AND_RELIABILITY_008",
+      "control_description": "Compliance Mapping",
+      "question": "Does the product provide \"compliance-as-code\" templates for customer audits?",
+      "yes_attribute": "The product provides 'compliance-as-code' templates to assist customers with audits.",
+      "no_attribute": "The product does not provide automated compliance templates.",
+      "tier": "tier3",
+      "remediation": [
+        "Develop and publish Terraform or CloudFormation templates that are pre-configured to meet specific compliance standards (e.g., HIPAA-ready).",
+        "Provide open policy agent (OPA) bundles that customers can use to automatically audit their own product configurations against your best practices.",
+        "Create 'audit packs' containing automated scripts and documentation that map product features to common auditor evidence requests."
+      ]
+    },
+    {
+      "id": "SECURITY_AND_RELIABILITY_009",
+      "control_description": "Third-Party Risk (SBOM)",
+      "question": "Does a tool automatically block the build if a new high-risk library vulnerability is found?",
+      "yes_attribute": "Automated tools block the build when high-risk library vulnerabilities are detected.",
+      "no_attribute": "High-risk vulnerabilities do not automatically trigger a build block.",
+      "tier": "tier3",
+      "remediation": [
+        "Configure SCA tools to trigger a non-zero exit code in the CI pipeline when a vulnerability exceeds a defined CVSS threshold (e.g., 7.0+).",
+        "Implement a 'security exception' workflow where a blocked build can only be bypassed with a documented risk acceptance from the CISO/security lead.",
+        "Utilize 'vex' (vulnerability exploitability exchange) files to filter out non-exploitable vulnerabilities from blocking the build, reducing developer friction."
+      ]
+    }
+  ],
+  "PHYSICAL": [
+    {
+      "id": "PHYSICAL_001",
+      "control_description": "Data Center/Cloud Locality",
+      "question": "Is the product hosted in a tier 3+ data center or a major cloud provider (AWS/azure)?",
+      "yes_attribute": "The product is hosted in a tier 3+ data center or a major cloud provider (AWS/azure).",
+      "no_attribute": "The product is not hosted in a tier 3+ data center or major cloud environment.",
+      "tier": "tier1",
+      "remediation": [
+        "Migrate product workloads to a certified tier 3 or tier 4 data center that guarantees 99.98% uptime and redundant power/cooling.",
+        "Relocate infrastructure to a major public cloud provider (AWS, azure, GCP) to leverage their global physical security certifications.",
+        "Document the specific data center regions and availability zones used, ensuring they meet the organization's uptime and security requirements."
+      ]
+    },
+    {
+      "id": "PHYSICAL_002",
+      "control_description": "Build Environment Security",
+      "question": "Are the servers used for the CI/CD pipeline locked and restricted to specific admins?",
+      "yes_attribute": "CI/CD pipeline servers are physically or logically locked and restricted to authorized admins.",
+      "no_attribute": "CI/CD pipeline servers are not sufficiently restricted or locked.",
+      "tier": "tier1",
+      "remediation": [
+        "House on-premises build servers in locked server racks with access restricted to a verified list of system administrators.",
+        "Implement strict IAM roles and network security groups (nsgs) to ensure only authorized build-engineering identities can access CI/CD controllers.",
+        "Enable 'MFA for SSH' or similar jump-box requirements to prevent unauthorized remote access to the build server operating systems."
+      ]
+    },
+    {
+      "id": "PHYSICAL_003",
+      "control_description": "Data Center/Cloud Locality",
+      "question": "Does the organization perform annual reviews of the host's physical security (SOC 2 Type II)?",
+      "yes_attribute": "Annual reviews of the host's physical security (e.g., SOC 2 Type II) are performed.",
+      "no_attribute": "Annual reviews of the host's physical security are not performed.",
+      "tier": "tier2",
+      "remediation": [
+        "Establish a formal vendor risk management process to collect and review SOC 2 Type II or ISO 27001 reports from all hosting providers annually.",
+        "Document the review findings in a centralized GRC tool, specifically noting any physical security 'exceptions' mentioned in the auditor's report.",
+        "Require hosting providers to provide a 'bridge letter' for any months not covered by their most recent annual soc2 report to ensure continuous coverage."
+      ]
+    },
+    {
+      "id": "PHYSICAL_004",
+      "control_description": "Build Environment Security",
+      "question": "Is access to the physical build office/server room protected by 2fa (badge + biometric)?",
+      "yes_attribute": "Physical access to critical build areas is protected by multi-factor authentication (e.g., badge + biometric).",
+      "no_attribute": "Physical access to build areas does not require multi-factor authentication.",
+      "tier": "tier2",
+      "remediation": [
+        "Upgrade entry points to the server room or build area to require both a physical keycard/badge and a biometric scan (fingerprint or iris).",
+        "Implement a 'man-trap' or interlocking door system at the primary entrance of the build office to prevent tailgating.",
+        "Review and audit physical access logs monthly to identify and investigate any unauthorized entry attempts or unusual access patterns."
+      ]
+    },
+    {
+      "id": "PHYSICAL_005",
+      "control_description": "Data Center/Cloud Locality",
+      "question": "Are product workloads geofenced to specific regions to meet physical data residency laws?",
+      "yes_attribute": "Product workloads are geofenced to specific regions to comply with data residency laws.",
+      "no_attribute": "Product workloads are not geofenced to specific physical regions.",
+      "tier": "tier3",
+      "remediation": [
+        "Use cloud provider 'region' and 'resource policy' constraints to programmatically prevent data from being stored or processed outside of designated borders.",
+        "Implement database sharding or localized instances that ensure customer-specific data remains within the customer's legal jurisdiction.",
+        "Configure automated alerts that trigger if data movements or infrastructure provisioning attempts are detected in non-authorized geographic regions."
+      ]
+    },
+    {
+      "id": "PHYSICAL_006",
+      "control_description": "Build Environment Security",
+      "question": "Is the build environment \"ephemeral,\" spinning up in a clean state and destroying itself after each build?",
+      "yes_attribute": "The build environment is ephemeral, spinning up in a clean state and destroying itself after each use.",
+      "no_attribute": "The build environment is persistent rather than ephemeral.",
+      "tier": "tier3",
+      "remediation": [
+        "Migrate from persistent build vms to containerized build agents (e.g., Kubernetes runners) that are instantiated for a single job and then purged.",
+        "Implement a 'clean room' build strategy where every build starts from a hardened, read-only 'golden image' to ensure no cross-contamination of artifacts.",
+        "Automate the post-build 'wipe' process to ensure all temporary files, environment variables, and cached credentials are destroyed immediately upon completion."
+      ]
+    }
+  ]
+}
